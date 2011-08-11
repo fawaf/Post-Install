@@ -375,16 +375,6 @@ install_nowtable () {
 	npm install now
 }
 
-##THIS IS THE COOL MAC PART FOR COOL PEOPLE
-
-install_homebrew () {
-	if [ -d /usr/local/.git ]; then
-		echo "Homebrew is already installed"
-	else 
-		/usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
-	fi
-}
-
 choose_what_to_do () {
 	while true; do
 		echo "q = Quit"
@@ -488,103 +478,46 @@ choose_what_to_do () {
 	done
 }
 
+##THIS IS THE COOL MAC PART FOR COOL PEOPLE
+
+install_homebrew () {
+	if [ -d /usr/local/.git ]; then
+		echo "Homebrew is already installed"
+	else 
+		/usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
+	fi
+}
+
+update_homebrew () {
+	if [ -d /usr/local/.git ]; then
+		brew update
+	else
+		echo "You don't have Homebrew installed!"
+	fi
+}
+
 mac_choose_what_to_do () {
-	echo "Note: This probably doesn't all work yet"
+	echo "Note: Yes I know this is much more limited...FOR NOW"
 	while true; do
 		echo "q = Quit"
-		echo "d = sudo apt-get -qq update"
-		echo "g = sudo apt-get -qqy upgrade"
-		echo "1 = Install Homebrew (pretty damn important)"
+		echo "u = update homebrew"
+		echo "1 = Install Homebrew (prerequisite for many things)"
 		echo "2 = Change /usr/local Permissions"
-		echo "3 = Install Google Talk Plugin"
-		echo "4 = Install Google Chrome"
-		echo "5 = Install Google Earth"
-		echo "6 = Install Dropbox"
-		echo "7 = Install Minecraft"
-		echo "8 = Install Gedit Plugins (not in gedit-plugins package)"
-		echo "9 = Install Apps without Repos"
-		echo "10 = Install Apps with Repos"
-		echo "11 = Install Vaio Z Janitor Script"
-		echo "12 = Remove Evolution Indicator"
-		echo "13 = Install Node.js"
-		echo "14 = Install Nowtable"
-		echo "15 = Install Google Music Manager"
-		echo "16 = Install WiFi Restart Script"
-		echo "17 = Install SuperOS Repository (WARNING: Has conflicting packages!)"
-		echo "18 = Install Truecrypt"
-		echo "19 = Install Hulu Desktop"
 		echo "20 = Modify Aliases"
 		echo "666 = DO EVERYTHING!"
 		read -p "Choose command: " REPLY
 		if [ "$REPLY" = q ]; then
 			echo "Quiting..."
 			break
-		elif [ "$REPLY" = d ]; then
-			qq_update
-		elif [ "$REPLY" = g ]; then
-			qqy_upgrade
+		elif [ "$REPLY" = u ]; then
+			update_homebrew
 		elif [ "$REPLY" = 1 ]; then
 			install_homebrew
-		elif [ "$REPLY" = 2 ]; then
-			usr_local_permissions
-		elif [ "$REPLY" = 3 ]; then
-			install_google_talk_plugin
-		elif [ "$REPLY" = 4 ]; then
-			install_google_chrome
-		elif [ "$REPLY" = 5 ]; then
-			install_google_earth
-		elif [ "$REPLY" = 6 ]; then
-			install_dropbox
-		elif [ "$REPLY" = 7 ]; then
-			install_minecraft
-		elif [ "$REPLY" = 8 ]; then
-			install_gedit_plugins
-		elif [ "$REPLY" = 9 ]; then
-			install_apps_no_repos
-		elif [ "$REPLY" = 10 ]; then
-			install_apps_yes_repos
-		elif [ "$REPLY" = 11 ]; then
-			install_vaioz_app
-		elif [ "$REPLY" = 12 ]; then
-			remove_evolution_indicator
-		elif [ "$REPLY" = 13 ]; then
-			install_node
-		elif [ "$REPLY" = 14 ]; then
-			install_nowtable
-		elif [ "$REPLY" = 15 ]; then
-			install_google_music_manager
-		elif [ "$REPLY" = 16 ]; then
-			install_wifi_resume_script
-		elif [ "$REPLY" = 17 ]; then
-			install_super_os_repo
-		elif [ "$REPLY" = 18 ]; then
-			install_truecrypt
-		elif [ "$REPLY" = 19 ]; then
-			install_huludesktop
-		elif [ "$REPLY" = 20 ]; then
+		elif [ "$REPLY" = 2]; then
 			modify_aliases
 		elif [ "$REPLY" = 666 ]; then
 			install_homebrew
-			usr_local_permissions
-			qq_update
-			install_google_talk_plugin
-			install_google_chrome
-			install_google_earth
-			install_google_music_manager
-			install_dropbox
-			install_minecraft
-			install_gedit_plugins
-			qq_update
-			install_apps_yes_repos
-			qq_update
-			install_vaioz_app
-			remove_evolution_indicator
-			qq_update
-			install_node
-			install_nowtable
-			install_wifi_resume_script
-			qq_update
-			qqy_upgrade
+			modify_aliases
 		else
 			echo "Invalid Choice!"
 		fi
@@ -608,13 +541,12 @@ modify_aliases () {
 			break
 		elif [ "$REPLY" = 1 ]; then
 			FOUND=`egrep "alias \.\.=" ~/.post-aliases`
-			if [ '$FOUND' ]; then
-				echo "DERP"
+			if [ ${FOUND} ]; then
+				echo "Found something already"
 				echo $FOUND
-				REPLACE="alias ..=\"cd ..\""
-				echo $REPLACE
-				sed "s/alias herp=derp/DICKS/g" ~/.post-aliases
+				sed -ie "s/alias ..(.)$/alias ..='cd ..'/" ~/.post-aliases
 			else 
+				echo "Not found"
 				echo -e "alias ..=\"cd ..\"" | tee -a ~/.post-aliases
 			fi
 		else 
