@@ -1,15 +1,19 @@
 #!/bin/bash
-## Freddie's Post Install Script for Ubuntu (11.04) AND MACOSX!!!!!!
+## Trolling Manor Post Install Script for Ubuntu (11.04) AND MACOSX!!!!!!
 ## August 10, 2011
 ## Version 0.01
 
 echo "-----------------------------------------"
-echo "Welcome to Freddie's Post Install Script!"
+echo "Welcome to the Trollingwood Manor Post Install Script!"
 echo "-----------------------------------------"
 echo ""
 
 f=$(pwd) # 'pwd' is "present working directory"
 platform=''
+
+sed_escape () {
+	echo $1| sed -e 's/\(\.\|\/\|\*\|\[\|\]\|\\\)/\\&/g'
+}
 
 
 determine_OS () {
@@ -453,6 +457,8 @@ choose_what_to_do () {
 			install_truecrypt
 		elif [ "$REPLY" = 19 ]; then
 			install_huludesktop
+		elif [ "$REPLY" = 20]; then
+			modify_aliases
 		elif [ "$REPLY" = 666 ]; then
 			usr_local_permissions
 			qq_update
@@ -507,6 +513,7 @@ mac_choose_what_to_do () {
 		echo "17 = Install SuperOS Repository (WARNING: Has conflicting packages!)"
 		echo "18 = Install Truecrypt"
 		echo "19 = Install Hulu Desktop"
+		echo "20 = Modify Aliases"
 		echo "666 = DO EVERYTHING!"
 		read -p "Choose command: " REPLY
 		if [ "$REPLY" = q ]; then
@@ -554,6 +561,8 @@ mac_choose_what_to_do () {
 			install_truecrypt
 		elif [ "$REPLY" = 19 ]; then
 			install_huludesktop
+		elif [ "$REPLY" = 20 ]; then
+			modify_aliases
 		elif [ "$REPLY" = 666 ]; then
 			install_homebrew
 			usr_local_permissions
@@ -580,6 +589,37 @@ mac_choose_what_to_do () {
 			echo "Invalid Choice!"
 		fi
 		echo ""
+	done
+}
+
+
+##MODIFYING ALIASES
+modify_aliases () {
+	echo "---------------------------"
+	echo "Modify your aliases here!"
+	echo "---------------------------"
+	touch ~/.post-aliases
+	while true; do
+		echo "q = Quit"
+		echo "1 = Fix dot navigation"
+		read -p "Choose command: " REPLY
+		if [ "$REPLY" = q ]; then
+			echo "Quitting..."
+			break
+		elif [ "$REPLY" = 1 ]; then
+			FOUND=`egrep "alias \.\.=" ~/.post-aliases`
+			if [ '$FOUND' ]; then
+				echo "DERP"
+				echo $FOUND
+				REPLACE="alias ..=\"cd ..\""
+				echo $REPLACE
+				sed "s/alias herp=derp/DICKS/g" ~/.post-aliases
+			else 
+				echo -e "alias ..=\"cd ..\"" | tee -a ~/.post-aliases
+			fi
+		else 
+			echo "Invalid choice"
+		fi
 	done
 }
 
