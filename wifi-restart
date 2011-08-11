@@ -1,0 +1,5 @@
+#!/bin/bash
+killall nm-applet
+sudo service network-manager restart
+nm-applet
+
