@@ -9,6 +9,19 @@ echo "-----------------------------------------"
 echo ""
 
 f=$(pwd) # 'pwd' is "present working directory"
+platform=''
+
+
+determine_OS () {
+	echo "Determining your operating System!"
+	if (uname -a | grep 'Darwin'); then
+		platform='MACOSX'
+	elif (uname -a | grep 'Linux'); then
+		platform='Linux'
+	else
+		platform='Unknown'
+	fi
+}
 
 usr_local_permissions () {
 	read -p "Change Permissions of /usr/local to ${USER} (y/n): " REPLY
@@ -358,6 +371,12 @@ install_nowtable () {
 	npm install now
 }
 
+##THIS IS THE COOL MAC PART FOR COOL PEOPLE
+
+install_homebrew () {
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
+}
+
 choose_what_to_do () {
 	while true; do
 		echo "q = Quit"
@@ -458,4 +477,5 @@ choose_what_to_do () {
 		echo ""
 	done
 }
+determine_OS
 choose_what_to_do
