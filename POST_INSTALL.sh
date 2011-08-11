@@ -492,7 +492,17 @@ update_homebrew () {
 	if [ -d /usr/local/.git ]; then
 		brew update
 	else
-		echo "You don't have Homebrew installed!"
+		echo "You don't have Homebrew installed."
+	fi
+}
+
+mac_install_node () {
+	if [ -d /usr/local/.git ]; then
+		brew install node
+		echo "Installing npm..."
+		curl http://npmjs.org/install.sh | clean=yes sh
+	else 
+		echo "You don't have Homebrew installed."
 	fi
 }
 
@@ -502,8 +512,8 @@ mac_choose_what_to_do () {
 		echo "q = Quit"
 		echo "u = update homebrew"
 		echo "1 = Install Homebrew (prerequisite for many things)"
-		echo "2 = Change /usr/local Permissions"
-		echo "20 = Modify Aliases"
+		echo "2 = Modify Aliases"
+		echo "3 = Install Node and NPM"
 		echo "666 = DO EVERYTHING!"
 		read -p "Choose command: " REPLY
 		if [ "$REPLY" = q ]; then
@@ -515,6 +525,8 @@ mac_choose_what_to_do () {
 			install_homebrew
 		elif [ "$REPLY" = 2]; then
 			modify_aliases
+		elif [ "$REPLY" = 3]; then
+			mac_install_node
 		elif [ "$REPLY" = 666 ]; then
 			install_homebrew
 			modify_aliases
