@@ -480,6 +480,14 @@ choose_what_to_do () {
 
 ##THIS IS THE COOL MAC PART FOR COOL PEOPLE
 
+install_wget () {
+	if [ -d /usr/local/.git ]; then
+		brew install wget
+	else
+		echo "You don't have Homebrew installed."
+	fi
+}
+
 install_homebrew () {
 	if [ -d /usr/local/.git ]; then
 		echo "Homebrew is already installed"
@@ -506,6 +514,14 @@ mac_install_node () {
 	fi
 }
 
+mac_install_chrome () {
+	wget -q http://dl.google.com/chrome/mac/dev/GoogleChrome.dmg -O ~/Downloads/GoogleChrome.dmg
+	hdiutil -quiet mount ~/Downloads/GoogleChrome.dmg
+	cp -R "/Volumes/Google Chrome/Google Chrome.app" /Applications
+	hdiutil -quiet unmount "/Volumes/Google Chrome"
+	rm ~/Downloads/GoogleChrome.dmg
+}
+
 mac_choose_what_to_do () {
 	echo "Note: Yes I know this is much more limited...FOR NOW"
 	while true; do
@@ -514,24 +530,28 @@ mac_choose_what_to_do () {
 		echo "1 = Install Homebrew (prerequisite for many things)"
 		echo "2 = Modify Aliases"
 		echo "3 = Install Node and NPM"
+		echo "4 = Install Google Chrome"
 		echo "666 = DO EVERYTHING!"
 		read -p "Choose command: " REPLY
 		if [ "$REPLY" = q ]; then
-			echo "Quiting..."
+			echo "Quitting..."
 			break
 		elif [ "$REPLY" = u ]; then
 			update_homebrew
+		elif [ "$REPLY" = 0 ]; then
+			install_wget
 		elif [ "$REPLY" = 1 ]; then
 			install_homebrew
 		elif [ "$REPLY" = 2]; then
 			modify_aliases
 		elif [ "$REPLY" = 3]; then
 			mac_install_node
+		elif [ "$REPLY" = 4]; then
+			mac_install_chrome
 		elif [ "$REPLY" = 666 ]; then
-			install_homebrew
-			modify_aliases
+			echo "Doesn't work yet"
 		else
-			echo "Invalid Choice!"
+			echo "Invalid Choice"
 		fi
 		echo ""
 	done
