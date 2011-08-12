@@ -523,9 +523,10 @@ mac_install_chrome () {
 }
 
 mac_install_dropbox () {
-	wget -q http://www.dropbox.com/downloading?os=mac -O ~/Downloads/Dropbox.dmg
+	wget -q http://cdn.dropbox.com/Dropbox%201.1.35.dmg -O ~/Downloads/Dropbox.dmg
 	hdiutil mount -quiet ~/Downloads/Dropbox.dmg
-	cp -R "/Volumes/Dropbox/Dropbox.app" /Applications
+	cp -R "/Volumes/Dropbox Install/Dropbox.app" /Applications
+	hdiutil unmount -quiet "/Volumes/Dropbox Install"
 	rm ~/Downloads/Dropbox.dmg
 }
 
@@ -533,6 +534,7 @@ install_adium () {
 	wget -q http://download.adium.im/Adium_1.4.2.dmg -O ~/Downloads/Adium.dmg
 	hdiutil mount -quiet ~/Downloads/Adium.dmg
 	cp -R "/Volumes/Adium 1.4.2/Adium.app" /Applications
+	hdiutil unmount -quiet "/Volumes/Adium 1.4.2"
 	rm ~/Downloads/Adium.dmg
 }
 
@@ -540,6 +542,7 @@ mac_install_libreoffice () {
 	wget -q http://download.documentfoundation.org/libreoffice/stable/3.3.3/mac/x86/LibO_3.3.3_MacOS_x86_install_en-US.dmg -O ~/Downloads/LibreOffice.dmg
 	hdiutil mount -quiet ~/Downloads/LibreOffice.dmg
 	cp -R "/Volumes/LibreOffice 3.3/LibreOffice.app" /Applications
+	hdiutil unmount -quiet "/Volumes/LibreOffice 3.3"
 	rm ~/Downloads/LibreOffice.dmg
 }
 
