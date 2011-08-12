@@ -516,10 +516,17 @@ mac_install_node () {
 
 mac_install_chrome () {
 	wget -q http://dl.google.com/chrome/mac/dev/GoogleChrome.dmg -O ~/Downloads/GoogleChrome.dmg
-	hdiutil -quiet mount ~/Downloads/GoogleChrome.dmg
+	hdiutil mount -quiet ~/Downloads/GoogleChrome.dmg
 	cp -R "/Volumes/Google Chrome/Google Chrome.app" /Applications
-	hdiutil -quiet unmount "/Volumes/Google Chrome"
+	hdiutil unmount -quiet "/Volumes/Google Chrome"
 	rm ~/Downloads/GoogleChrome.dmg
+}
+
+mac_install_dropbox () {
+	wget -q http://www.dropbox.com/downloading?os=mac -O ~/Downloads/Dropbox.dmg
+	hdiutil mount -quiet ~/Downloads/Dropbox.dmg
+	cp -R "/Volumes/Dropbox/Dropbox.app" /Applications
+	rm ~/Downloads/Dropbox.dmg
 }
 
 mac_choose_what_to_do () {
@@ -531,6 +538,7 @@ mac_choose_what_to_do () {
 		echo "2 = Modify Aliases"
 		echo "3 = Install Node and NPM"
 		echo "4 = Install Google Chrome"
+		echo "5 = Install Dropbox"
 		echo "666 = DO EVERYTHING!"
 		read -p "Choose command: " REPLY
 		if [ "$REPLY" = q ]; then
@@ -548,6 +556,8 @@ mac_choose_what_to_do () {
 			mac_install_node
 		elif [ "$REPLY" = 4]; then
 			mac_install_chrome
+		elif [ "$REPLY" = 5]; then
+			mac_install_dropbox
 		elif [ "$REPLY" = 666 ]; then
 			echo "Doesn't work yet"
 		else
