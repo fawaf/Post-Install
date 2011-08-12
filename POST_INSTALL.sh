@@ -529,6 +529,20 @@ mac_install_dropbox () {
 	rm ~/Downloads/Dropbox.dmg
 }
 
+install_adium () {
+	wget -q http://download.adium.im/Adium_1.4.2.dmg -O ~/Downloads/Adium.dmg
+	hdiutil mount -quiet ~/Downloads/Adium.dmg
+	cp -R "/Volumes/Adium 1.4.2/Adium.app" /Applications
+	rm ~/Downloads/Adium.dmg
+}
+
+mac_install_libreoffice () {
+	wget -q http://download.documentfoundation.org/libreoffice/stable/3.3.3/mac/x86/LibO_3.3.3_MacOS_x86_install_en-US.dmg -O ~/Downloads/LibreOffice.dmg
+	hdiutil mount -quiet ~/Downloads/LibreOffice.dmg
+	cp -R "/Volumes/LibreOffice 3.3/LibreOffice.app" /Applications
+	rm ~/Downloads/LibreOffice.dmg
+}
+
 mac_choose_what_to_do () {
 	echo "Note: Yes I know this is much more limited...FOR NOW"
 	while true; do
@@ -539,6 +553,8 @@ mac_choose_what_to_do () {
 		echo "3 = Install Node and NPM"
 		echo "4 = Install Google Chrome"
 		echo "5 = Install Dropbox"
+		echo "6 = Install Adium"
+		echo "7 = Install LibreOffice"
 		echo "666 = DO EVERYTHING!"
 		read -p "Choose command: " REPLY
 		if [ "$REPLY" = q ]; then
@@ -558,6 +574,10 @@ mac_choose_what_to_do () {
 			mac_install_chrome
 		elif [ "$REPLY" = 5]; then
 			mac_install_dropbox
+		elif [ "$REPLY" = 6]; then
+			install_adium
+		elif [ "$REPLY" = 7]; then
+			mac_install_libreoffice
 		elif [ "$REPLY" = 666 ]; then
 			echo "Doesn't work yet"
 		else
