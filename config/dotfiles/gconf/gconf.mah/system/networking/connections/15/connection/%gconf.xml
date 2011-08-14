@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="type" mtime="1312862376" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+	<entry name="uuid" mtime="1312862376" type="string">
+		<stringvalue>6d8938f1-b3f9-48b9-99a7-74fe147fa934</stringvalue>
+	</entry>
+	<entry name="id" mtime="1312862376" type="string">
+		<stringvalue>Auto bossnet</stringvalue>
+	</entry>
+	<entry name="name" mtime="1312862376" type="string">
+		<stringvalue>connection</stringvalue>
+	</entry>
+</gconf>

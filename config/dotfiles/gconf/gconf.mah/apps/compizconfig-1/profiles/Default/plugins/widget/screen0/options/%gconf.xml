@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="toggle_edge" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/widget/screen0/options/toggle_edge"/>
+	<entry name="bg_brightness" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/widget/screen0/options/bg_brightness"/>
+	<entry name="toggle_button" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/widget/screen0/options/toggle_button"/>
+	<entry name="bg_saturation" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/widget/screen0/options/bg_saturation"/>
+	<entry name="toggle_key" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/widget/screen0/options/toggle_key"/>
+	<entry name="match" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/widget/screen0/options/match"/>
+	<entry name="end_on_click" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/widget/screen0/options/end_on_click"/>
+	<entry name="fade_time" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/widget/screen0/options/fade_time"/>
+</gconf>

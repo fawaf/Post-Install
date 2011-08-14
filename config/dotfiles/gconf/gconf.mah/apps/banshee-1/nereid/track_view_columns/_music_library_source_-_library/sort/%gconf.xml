@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="direction" mtime="1313207062" type="int" value="1"/>
+	<entry name="column" mtime="1313207062" type="string">
+		<stringvalue>genre</stringvalue>
+	</entry>
+</gconf>

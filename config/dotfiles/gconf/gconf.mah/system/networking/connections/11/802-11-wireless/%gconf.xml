@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="seen-bssids" mtime="1313201436" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>90:27:e4:5c:21:21</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>90:27:e4:5c:21:22</stringvalue>
+		</li>
+	</entry>
+	<entry name="security" mtime="1313201436" type="string">
+		<stringvalue>802-11-wireless-security</stringvalue>
+	</entry>
+	<entry name="mode" mtime="1313201436" type="string">
+		<stringvalue>infrastructure</stringvalue>
+	</entry>
+	<entry name="ssid" mtime="1313201436" type="list" ltype="int">
+		<li type="int" value="80"/>
+		<li type="int" value="111"/>
+		<li type="int" value="115"/>
+		<li type="int" value="116"/>
+		<li type="int" value="101"/>
+		<li type="int" value="114"/>
+		<li type="int" value="111"/>
+		<li type="int" value="117"/>
+		<li type="int" value="115"/>
+		<li type="int" value="32"/>
+		<li type="int" value="72"/>
+		<li type="int" value="81"/>
+		<li type="int" value="32"/>
+		<li type="int" value="69"/>
+		<li type="int" value="120"/>
+		<li type="int" value="116"/>
+		<li type="int" value="114"/>
+		<li type="int" value="101"/>
+		<li type="int" value="109"/>
+		<li type="int" value="101"/>
+	</entry>
+	<entry name="name" mtime="1313201436" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+</gconf>

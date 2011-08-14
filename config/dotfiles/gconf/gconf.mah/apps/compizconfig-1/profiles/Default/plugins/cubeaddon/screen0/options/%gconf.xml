@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="bottom_prev_button" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/bottom_prev_button"/>
+	<entry name="adjust_top" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/adjust_top"/>
+	<entry name="top_clamp" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/top_clamp"/>
+	<entry name="auto_zoom" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/auto_zoom"/>
+	<entry name="sphere_aspect" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/sphere_aspect"/>
+	<entry name="intensity" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/intensity"/>
+	<entry name="unfold_deformation" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/unfold_deformation"/>
+	<entry name="ground_color2" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/ground_color2"/>
+	<entry name="ground_color1" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/ground_color1"/>
+	<entry name="top_next_button" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/top_next_button"/>
+	<entry name="bottom_images" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/bottom_images"/>
+	<entry name="deformation" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/deformation"/>
+	<entry name="bottom_next_key" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/bottom_next_key"/>
+	<entry name="bottom_scale" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/bottom_scale"/>
+	<entry name="deform_caps" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/deform_caps"/>
+	<entry name="top_next_key" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/top_next_key"/>
+	<entry name="draw_top" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/draw_top"/>
+	<entry name="cylinder_manual_only" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/cylinder_manual_only"/>
+	<entry name="top_prev_button" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/top_prev_button"/>
+	<entry name="top_images" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/top_images"/>
+	<entry name="adjust_bottom" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/adjust_bottom"/>
+	<entry name="ground_size" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/ground_size"/>
+	<entry name="bottom_clamp" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/bottom_clamp"/>
+	<entry name="top_scale" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/top_scale"/>
+	<entry name="reflection" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/reflection"/>
+	<entry name="bottom_next_button" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/bottom_next_button"/>
+	<entry name="bottom_prev_key" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/bottom_prev_key"/>
+	<entry name="bottom_aspect" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/bottom_aspect"/>
+	<entry name="draw_bottom" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/draw_bottom"/>
+	<entry name="zoom_manual_only" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/zoom_manual_only"/>
+	<entry name="top_prev_key" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/top_prev_key"/>
+	<entry name="top_aspect" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/top_aspect"/>
+	<entry name="mode" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/cubeaddon/screen0/options/mode"/>
+</gconf>

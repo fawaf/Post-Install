@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="show_remote_machine" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/titleinfo/screen0/options/show_remote_machine"/>
+	<entry name="show_root" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/titleinfo/screen0/options/show_root"/>
+</gconf>

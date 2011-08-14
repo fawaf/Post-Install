@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="type" mtime="1310357682" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+	<entry name="uuid" mtime="1310357682" type="string">
+		<stringvalue>f68eb988-1853-40d1-bc54-607cb488e9c8</stringvalue>
+	</entry>
+	<entry name="id" mtime="1310357682" type="string">
+		<stringvalue>Auto BOBO-PC-Network</stringvalue>
+	</entry>
+	<entry name="name" mtime="1310357682" type="string">
+		<stringvalue>connection</stringvalue>
+	</entry>
+</gconf>

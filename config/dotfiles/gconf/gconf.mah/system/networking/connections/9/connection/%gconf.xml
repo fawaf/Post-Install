@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="timestamp" mtime="1308400763" type="string">
+		<stringvalue>1308400763</stringvalue>
+	</entry>
+	<entry name="type" mtime="1308400763" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+	<entry name="uuid" mtime="1308400763" type="string">
+		<stringvalue>2ea41814-28b8-4f9b-886c-38686ac0dcf4</stringvalue>
+	</entry>
+	<entry name="id" mtime="1308400763" type="string">
+		<stringvalue>Auto JetBlue Hotspot</stringvalue>
+	</entry>
+	<entry name="name" mtime="1308400763" type="string">
+		<stringvalue>connection</stringvalue>
+	</entry>
+</gconf>

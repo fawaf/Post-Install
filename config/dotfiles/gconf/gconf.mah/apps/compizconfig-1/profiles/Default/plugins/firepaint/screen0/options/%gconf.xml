@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="fire_mystical" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/firepaint/screen0/options/fire_mystical"/>
+	<entry name="fire_slowdown" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/firepaint/screen0/options/fire_slowdown"/>
+	<entry name="clear_button" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/firepaint/screen0/options/clear_button"/>
+	<entry name="fire_size" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/firepaint/screen0/options/fire_size"/>
+	<entry name="initiate_button" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/firepaint/screen0/options/initiate_button"/>
+	<entry name="fire_life" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/firepaint/screen0/options/fire_life" type="float" value="0.9089999794960022"/>
+	<entry name="num_Particles" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/firepaint/screen0/options/num_Particles" type="int" value="20000"/>
+	<entry name="bg_brightness" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/firepaint/screen0/options/bg_brightness" type="int" value="100"/>
+	<entry name="fire_color" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/firepaint/screen0/options/fire_color" type="string">
+		<stringvalue>#6d52c3ff</stringvalue>
+	</entry>
+	<entry name="initiate_key" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/firepaint/screen0/options/initiate_key"/>
+	<entry name="clear_key" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/firepaint/screen0/options/clear_key" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Super&gt;k</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="active_profile" mtime="1309820686" type="string">
+		<stringvalue>vorbis</stringvalue>
+	</entry>
+</gconf>

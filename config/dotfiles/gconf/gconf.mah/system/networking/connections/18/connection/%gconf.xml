@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="type" mtime="1313278534" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+	<entry name="uuid" mtime="1313278534" type="string">
+		<stringvalue>57ff36a2-5bb5-4771-8191-123d95e481bd</stringvalue>
+	</entry>
+	<entry name="id" mtime="1313278534" type="string">
+		<stringvalue>Auto Bellerophon</stringvalue>
+	</entry>
+	<entry name="name" mtime="1313278534" type="string">
+		<stringvalue>connection</stringvalue>
+	</entry>
+</gconf>

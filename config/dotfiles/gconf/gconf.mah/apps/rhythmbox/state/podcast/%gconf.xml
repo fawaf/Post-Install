@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="show_browser" mtime="1311401600" type="bool" value="true"/>
+	<entry name="download_next_time" mtime="1310960850" type="int" value="0"/>
+	<entry name="download_interval" mtime="1310960850" type="int" value="3"/>
+	<entry name="download_prefix" mtime="1310960727" type="string">
+		<stringvalue>file:///home/mah/Music</stringvalue>
+	</entry>
+	<entry name="paned_position" mtime="1313291877" type="int" value="86"/>
+</gconf>

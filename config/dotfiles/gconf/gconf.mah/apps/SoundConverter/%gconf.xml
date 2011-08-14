@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="subfolder-pattern-index" mtime="1313125160" type="int" value="2"/>
+	<entry name="create-subfolders" mtime="1313125157" type="int" value="1"/>
+	<entry name="name-pattern-index" mtime="1311658454" type="int" value="2"/>
+	<entry name="replace-messy-chars" mtime="1310355996" type="int" value="0"/>
+	<entry name="mp3-vbr-quality" mtime="1293306900" type="int" value="0"/>
+	<entry name="output-mime-type" mtime="1313125113" type="string">
+		<stringvalue>audio/mpeg</stringvalue>
+	</entry>
+</gconf>

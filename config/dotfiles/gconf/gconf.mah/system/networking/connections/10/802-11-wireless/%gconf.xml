@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="seen-bssids" mtime="1313264436" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>02:00:00:6a:34:c6</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>1a:d1:41:88:f3:30</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>7e:bf:a5:f2:b5:18</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:95:39:c3</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:3c:39:be</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:16:a7:b7</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:16:a7:ae</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:91:fc:a7</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:80:4f:a4</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:21:a8:8f</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:28:1f:9a</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:28:1f:7c</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:57:60:87</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:59:d6:72</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:51:ac:78</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>2e:f8:68:57:1f:2d</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:5c:91:66</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:91:fc:67</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:dc:1c:5f</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:62:1f:5c</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:1d:57:02</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:1d:57:5b</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:37:e3:5b</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:37:e3:56</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:5f:e4:65</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:5f:e4:4c</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:89:22:48</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:98:88:67</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:98:88:42</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:7a:c2:3d</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:45:c4:3b</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:9b:29:51</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>82:57:30:a3:82:fd</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:ef:95:35</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:aa:bc:28</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:9e:8f:23</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:a0:7b:1e</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>02:00:00:af:69:19</stringvalue>
+		</li>
+	</entry>
+	<entry name="mode" mtime="1313264436" type="string">
+		<stringvalue>adhoc</stringvalue>
+	</entry>
+	<entry name="ssid" mtime="1313264436" type="list" ltype="int">
+		<li type="int" value="109"/>
+		<li type="int" value="97"/>
+		<li type="int" value="104"/>
+		<li type="int" value="116"/>
+		<li type="int" value="101"/>
+		<li type="int" value="116"/>
+		<li type="int" value="104"/>
+		<li type="int" value="101"/>
+		<li type="int" value="114"/>
+	</entry>
+	<entry name="name" mtime="1313264436" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="zoom_box_button" mtime="1312789195" type="string">
+		<stringvalue>&lt;Control&gt;&lt;Alt&gt;Button3</stringvalue>
+	</entry>
+	<entry name="zoom_mode" mtime="1312789109" type="int" value="1"/>
+	<entry name="follow_focus" mtime="1312789083" type="bool" value="false"/>
+	<entry name="zoom_out_key" mtime="1312789071" type="string">
+		<stringvalue>&lt;Control&gt;&lt;Alt&gt;bracketleft</stringvalue>
+	</entry>
+	<entry name="zoom_in_key" mtime="1312789071" type="string">
+		<stringvalue>&lt;Control&gt;&lt;Alt&gt;bracketright</stringvalue>
+	</entry>
+</gconf>

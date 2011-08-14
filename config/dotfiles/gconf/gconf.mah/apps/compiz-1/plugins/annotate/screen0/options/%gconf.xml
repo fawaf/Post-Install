@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="erase_width" mtime="1312789071" type="float" value="26.365699768066406"/>
+	<entry name="clear_key" mtime="1312789071" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Alt&gt;k</stringvalue>
+	</entry>
+	<entry name="erase_button" mtime="1312789071" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Alt&gt;Button3</stringvalue>
+	</entry>
+	<entry name="initiate_ellipse_button" mtime="1312789071" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Control&gt;&lt;Alt&gt;Button2</stringvalue>
+	</entry>
+	<entry name="initiate_rectangle_button" mtime="1312789071" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Control&gt;&lt;Alt&gt;Button1</stringvalue>
+	</entry>
+	<entry name="initiate_line_button" mtime="1312789071" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Alt&gt;Button2</stringvalue>
+	</entry>
+	<entry name="initiate_free_draw_button" mtime="1312789071" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Alt&gt;Button1</stringvalue>
+	</entry>
+	<entry name="draw_shapes_from_center" mtime="1312789071" type="bool" value="false"/>
+	<entry name="fill_color" mtime="1312789071" type="string">
+		<stringvalue>#2ee5cbc3</stringvalue>
+	</entry>
+	<entry name="stroke_color" mtime="1312789071" type="string">
+		<stringvalue>#c81420ff</stringvalue>
+	</entry>
+</gconf>

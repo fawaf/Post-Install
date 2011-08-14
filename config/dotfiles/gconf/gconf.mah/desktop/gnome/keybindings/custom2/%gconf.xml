@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="action" mtime="1310574003" type="string">
+		<stringvalue>audio-device-switch.sh</stringvalue>
+	</entry>
+	<entry name="name" mtime="1310574003" type="string">
+		<stringvalue>Switch Audio Devices</stringvalue>
+	</entry>
+	<entry name="binding" mtime="1310574028" type="string">
+		<stringvalue>&lt;Control&gt;&lt;Alt&gt;p</stringvalue>
+	</entry>
+</gconf>

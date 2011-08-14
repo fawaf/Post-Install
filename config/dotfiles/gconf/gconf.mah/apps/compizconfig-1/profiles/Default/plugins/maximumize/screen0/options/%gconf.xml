@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="trigger_min_down_right" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_min_down_right"/>
+	<entry name="trigger_min_horizontally" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_min_horizontally"/>
+	<entry name="trigger_max_down" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_max_down"/>
+	<entry name="trigger_min_up" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_min_up"/>
+	<entry name="trigger_min_down" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_min_down"/>
+	<entry name="trigger_max_left" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_max_left"/>
+	<entry name="allow_shrink" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/allow_shrink"/>
+	<entry name="trigger_max_down_left" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_max_down_left"/>
+	<entry name="maximumize_up" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/maximumize_up"/>
+	<entry name="trigger_min_right" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_min_right"/>
+	<entry name="trigger_max_down_right" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_max_down_right"/>
+	<entry name="trigger_max_up_right" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_max_up_right"/>
+	<entry name="trigger_max_up_left" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_max_up_left"/>
+	<entry name="trigger_max_horizontally" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_max_horizontally"/>
+	<entry name="trigger_min_vertically" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_min_vertically"/>
+	<entry name="trigger_max_vertically" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_max_vertically"/>
+	<entry name="trigger_min_left" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_min_left"/>
+	<entry name="trigger_min_down_left" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_min_down_left"/>
+	<entry name="maximumize_down" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/maximumize_down"/>
+	<entry name="trigger_min_up_right" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_min_up_right"/>
+	<entry name="trigger_max_up" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_max_up"/>
+	<entry name="ignore_overlapping" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/ignore_overlapping"/>
+	<entry name="maximumize_left" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/maximumize_left"/>
+	<entry name="ignore_sticky" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/ignore_sticky"/>
+	<entry name="trigger_min_up_left" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_min_up_left"/>
+	<entry name="trigger_min_key" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_min_key"/>
+	<entry name="trigger_max_right" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_max_right"/>
+	<entry name="maximumize_right" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/maximumize_right"/>
+	<entry name="trigger_max_key" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/maximumize/screen0/options/trigger_max_key"/>
+</gconf>

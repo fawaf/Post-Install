@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="show_browser" mtime="1310434015" type="bool" value="true"/>
+	<entry name="sorting" mtime="1312996817" type="string">
+		<stringvalue>,ascending</stringvalue>
+	</entry>
+	<entry name="paned_position" mtime="1313291877" type="int" value="180"/>
+	<entry name="active" mtime="1313278560" type="bool" value="true"/>
+</gconf>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="screensaver" mtime="1312138759" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="power" mtime="1312099459" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="search" mtime="1312099355" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="home" mtime="1312060695" type="string">
+		<stringvalue>&lt;Control&gt;&lt;Alt&gt;n</stringvalue>
+	</entry>
+	<entry name="eject" mtime="1310514118" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="www" mtime="1292916243" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+</gconf>

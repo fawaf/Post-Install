@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="wm_cmd" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/crashhandler/screen0/options/wm_cmd"/>
+	<entry name="enabled" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/crashhandler/screen0/options/enabled"/>
+	<entry name="start_wm" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/crashhandler/screen0/options/start_wm"/>
+	<entry name="directory" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/crashhandler/screen0/options/directory"/>
+</gconf>

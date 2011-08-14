@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="panel_run_dialog" mtime="1312138920" type="string">
+		<stringvalue>&lt;Control&gt;&lt;Alt&gt;semicolon</stringvalue>
+	</entry>
+	<entry name="run_command_terminal" mtime="1292913953" type="string">
+		<stringvalue>&lt;Control&gt;&lt;Alt&gt;a</stringvalue>
+	</entry>
+</gconf>

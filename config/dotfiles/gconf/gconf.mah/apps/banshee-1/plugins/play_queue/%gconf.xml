@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="clear_on_quit" mtime="1310104951" type="bool" value="true"/>
+</gconf>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="window_maximized" mtime="1312500179" type="bool" value="false"/>
+	<entry name="small_width" mtime="1310357784" type="int" value="600"/>
+	<entry name="add_dir" mtime="1312997818" type="string">
+		<stringvalue>file:///media/364E034D4E0304F9/Audio/Vocaloid</stringvalue>
+	</entry>
+	<entry name="play_order" mtime="1312830097" type="string">
+		<stringvalue>random-by-age-and-rating</stringvalue>
+	</entry>
+	<entry name="window_y_position" mtime="1313291917" type="int" value="-2155"/>
+	<entry name="window_x_position" mtime="1313291917" type="int" value="234"/>
+	<entry name="window_height" mtime="1313291917" type="int" value="1028"/>
+	<entry name="window_width" mtime="1313291917" type="int" value="1280"/>
+	<entry name="sourcelist_height" mtime="1313291877" type="int" value="154"/>
+	<entry name="right_paned_position" mtime="1313291877" type="int" value="400"/>
+	<entry name="paned_position" mtime="1313291877" type="int" value="322"/>
+	<entry name="volume" mtime="1313291877" type="float" value="0.65753173828125"/>
+</gconf>

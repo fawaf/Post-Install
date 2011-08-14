@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="active_plugins" mtime="1312099024" schema="/schemas/apps/compiz-1/general/screen0/options/active_plugins" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>core</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>bailer</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>detection</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>composite</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>opengl</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>imgjpeg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>decor</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>vpswitch</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>wallpaper</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>put</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>commands</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>gnomecompat</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>mousepoll</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>obs</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>wall</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>resize</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>compiztoolbox</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>move</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>regex</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>annotate</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>grid</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>place</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>firepaint</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>imgpng</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>wobbly</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>animation</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>workarounds</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>session</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>expo</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>ezoom</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>staticswitcher</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>fade</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>scale</stringvalue>
+		</li>
+	</entry>
+	<entry name="hsize" mtime="1312099024" schema="/schemas/apps/compiz-1/general/screen0/options/hsize" type="int" value="4"/>
+	<entry name="vsize" mtime="1312099024" schema="/schemas/apps/compiz-1/general/screen0/options/vsize" type="int" value="4"/>
+</gconf>

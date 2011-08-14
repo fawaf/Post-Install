@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="check_custom_header" mtime="1301606286" type="bool" value="true"/>
+	<entry name="lookup_addressbook" mtime="1301606286" type="bool" value="false"/>
+	<entry name="empty_on_exit_days" mtime="1301606286" type="int" value="0"/>
+	<entry name="empty_on_exit" mtime="1313013657" type="bool" value="false"/>
+	<entry name="check_incoming" mtime="1313013657" type="bool" value="true"/>
+</gconf>

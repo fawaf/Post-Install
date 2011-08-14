@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="seen-bssids" mtime="1307738707" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>00:0f:34:9d:04:b0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>00:0f:34:72:4a:b0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>00:0f:24:de:10:d0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>00:0f:24:de:10:a0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>00:0f:34:72:4b:10</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>00:0f:34:9d:03:80</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>00:0f:34:9c:ff:10</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>00:0f:34:72:4c:70</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>00:0f:34:9d:01:a0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>00:0f:34:72:49:40</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>00:0f:34:9c:fe:70</stringvalue>
+		</li>
+	</entry>
+	<entry name="mode" mtime="1307738707" type="string">
+		<stringvalue>infrastructure</stringvalue>
+	</entry>
+	<entry name="ssid" mtime="1307738707" type="list" ltype="int">
+		<li type="int" value="67"/>
+		<li type="int" value="83"/>
+		<li type="int" value="69"/>
+		<li type="int" value="45"/>
+		<li type="int" value="76"/>
+		<li type="int" value="111"/>
+		<li type="int" value="99"/>
+		<li type="int" value="97"/>
+		<li type="int" value="108"/>
+	</entry>
+	<entry name="name" mtime="1307738707" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+</gconf>

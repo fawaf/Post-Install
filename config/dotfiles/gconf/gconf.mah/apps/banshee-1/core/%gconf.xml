@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="disable_internet_access" mtime="1310232925" type="bool" value="true"/>
+</gconf>

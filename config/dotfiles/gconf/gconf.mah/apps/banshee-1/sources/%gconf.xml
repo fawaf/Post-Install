@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="no_confirm_unmap_playlistsource" mtime="1311318052" type="bool" value="false"/>
+</gconf>

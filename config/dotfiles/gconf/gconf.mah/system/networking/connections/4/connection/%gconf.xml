@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="timestamp" mtime="1308377629" type="string">
+		<stringvalue>1308377629</stringvalue>
+	</entry>
+	<entry name="type" mtime="1308377629" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+	<entry name="uuid" mtime="1308377629" type="string">
+		<stringvalue>411a76a9-e1a7-48ac-b293-2cf8a271bd0a</stringvalue>
+	</entry>
+	<entry name="id" mtime="1308377629" type="string">
+		<stringvalue>Auto Hollow Rocky</stringvalue>
+	</entry>
+	<entry name="name" mtime="1308377629" type="string">
+		<stringvalue>connection</stringvalue>
+	</entry>
+</gconf>

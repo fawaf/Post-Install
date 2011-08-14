@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="bg_brightness" mtime="1312925220" type="int" value="100"/>
+	<entry name="clear_key" mtime="1312925216" type="string">
+		<stringvalue>&lt;Shift&gt;&lt;Super&gt;k</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="theme_name" mtime="1301030494" type="string">
+		<stringvalue>__custom</stringvalue>
+	</entry>
+	<entry name="event_sounds" mtime="1301030494" type="bool" value="true"/>
+</gconf>

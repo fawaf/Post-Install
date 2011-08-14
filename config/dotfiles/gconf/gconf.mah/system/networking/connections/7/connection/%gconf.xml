@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="timestamp" mtime="1307738707" type="string">
+		<stringvalue>1307738707</stringvalue>
+	</entry>
+	<entry name="type" mtime="1307738707" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+	<entry name="uuid" mtime="1307738707" type="string">
+		<stringvalue>7eef476b-0f36-432c-9c1c-0fb70a5d4690</stringvalue>
+	</entry>
+	<entry name="id" mtime="1307738707" type="string">
+		<stringvalue>Auto CSE-Local</stringvalue>
+	</entry>
+	<entry name="name" mtime="1307738707" type="string">
+		<stringvalue>connection</stringvalue>
+	</entry>
+</gconf>

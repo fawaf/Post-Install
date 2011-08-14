@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="timestamp" mtime="1313291946" type="string">
+		<stringvalue>1313291946</stringvalue>
+	</entry>
+	<entry name="type" mtime="1313291946" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+	<entry name="uuid" mtime="1313291946" type="string">
+		<stringvalue>0338e926-0e7a-4401-be4b-8d78b661f2c7</stringvalue>
+	</entry>
+	<entry name="id" mtime="1313291946" type="string">
+		<stringvalue>Auto Bunker</stringvalue>
+	</entry>
+	<entry name="name" mtime="1313291946" type="string">
+		<stringvalue>connection</stringvalue>
+	</entry>
+</gconf>

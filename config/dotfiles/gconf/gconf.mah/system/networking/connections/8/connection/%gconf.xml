@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="timestamp" mtime="1307762520" type="string">
+		<stringvalue>1307762520</stringvalue>
+	</entry>
+	<entry name="type" mtime="1307762520" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+	<entry name="uuid" mtime="1307762520" type="string">
+		<stringvalue>c49d4511-393a-4df3-a9bf-a2001e30e0da</stringvalue>
+	</entry>
+	<entry name="id" mtime="1307762520" type="string">
+		<stringvalue>Auto SEATAC-FREE-WIFI</stringvalue>
+	</entry>
+	<entry name="name" mtime="1307762520" type="string">
+		<stringvalue>connection</stringvalue>
+	</entry>
+</gconf>

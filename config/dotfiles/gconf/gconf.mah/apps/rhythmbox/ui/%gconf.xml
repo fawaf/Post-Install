@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="queue_as_sidebar" mtime="1313278556" type="bool" value="true"/>
+	<entry name="sourcelist_hidden" mtime="1310530567" type="bool" value="false"/>
+	<entry name="small_display" mtime="1310530567" type="bool" value="false"/>
+</gconf>

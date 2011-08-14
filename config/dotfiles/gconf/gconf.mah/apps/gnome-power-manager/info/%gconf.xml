@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="page_number" mtime="1299567465" type="int" value="0"/>
+	<entry name="stats_type" mtime="1307563970" type="string">
+		<stringvalue>charge-data</stringvalue>
+	</entry>
+	<entry name="history_type" mtime="1307563970" type="string">
+		<stringvalue>charge</stringvalue>
+	</entry>
+	<entry name="last_device" mtime="1307563970" type="string">
+		<stringvalue>/org/freedesktop/UPower/devices/battery_BAT0</stringvalue>
+	</entry>
+</gconf>

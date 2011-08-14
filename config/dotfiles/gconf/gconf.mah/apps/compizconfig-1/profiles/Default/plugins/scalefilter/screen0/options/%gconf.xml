@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="timeout" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/scalefilter/screen0/options/timeout"/>
+	<entry name="back_color" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/scalefilter/screen0/options/back_color"/>
+	<entry name="filter_case_insensitive" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/scalefilter/screen0/options/filter_case_insensitive"/>
+	<entry name="font_bold" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/scalefilter/screen0/options/font_bold"/>
+	<entry name="border_size" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/scalefilter/screen0/options/border_size"/>
+	<entry name="font_color" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/scalefilter/screen0/options/font_color"/>
+	<entry name="font_size" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/scalefilter/screen0/options/font_size"/>
+	<entry name="filter_display" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/scalefilter/screen0/options/filter_display"/>
+</gconf>

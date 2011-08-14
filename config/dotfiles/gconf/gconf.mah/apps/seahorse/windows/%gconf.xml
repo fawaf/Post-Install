@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="key-manager_height" mtime="1307853642" type="int" value="476"/>
+	<entry name="key-manager_width" mtime="1307853642" type="int" value="640"/>
+</gconf>

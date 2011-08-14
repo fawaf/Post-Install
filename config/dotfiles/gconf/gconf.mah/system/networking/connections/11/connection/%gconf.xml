@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="timestamp" mtime="1313201436" type="string">
+		<stringvalue>1313201436</stringvalue>
+	</entry>
+	<entry name="type" mtime="1313201436" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+	<entry name="uuid" mtime="1313201436" type="string">
+		<stringvalue>332590a5-9695-4801-8000-f88094dd9840</stringvalue>
+	</entry>
+	<entry name="id" mtime="1313201436" type="string">
+		<stringvalue>Auto Posterous HQ Extreme</stringvalue>
+	</entry>
+	<entry name="name" mtime="1313201436" type="string">
+		<stringvalue>connection</stringvalue>
+	</entry>
+</gconf>

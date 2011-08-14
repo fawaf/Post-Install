@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="bevel_bottomright" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/td/screen0/options/bevel_bottomright"/>
+	<entry name="manual_only" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/td/screen0/options/manual_only"/>
+	<entry name="width_color_inactive" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/td/screen0/options/width_color_inactive"/>
+	<entry name="min_cube_size" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/td/screen0/options/min_cube_size"/>
+	<entry name="bevel_topright" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/td/screen0/options/bevel_topright"/>
+	<entry name="width" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/td/screen0/options/width"/>
+	<entry name="max_window_space" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/td/screen0/options/max_window_space"/>
+	<entry name="window_match" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/td/screen0/options/window_match"/>
+	<entry name="bevel_bottomleft" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/td/screen0/options/bevel_bottomleft"/>
+	<entry name="bevel" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/td/screen0/options/bevel"/>
+	<entry name="bevel_topleft" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/td/screen0/options/bevel_topleft"/>
+	<entry name="width_color" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/td/screen0/options/width_color"/>
+</gconf>

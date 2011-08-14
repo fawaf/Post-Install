@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="column" mtime="1313207695" type="string">
+		<stringvalue>track_number</stringvalue>
+	</entry>
+</gconf>

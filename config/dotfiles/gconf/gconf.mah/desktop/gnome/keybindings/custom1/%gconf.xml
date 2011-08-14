@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="action" mtime="1301348718" type="string">
+		<stringvalue>scite</stringvalue>
+	</entry>
+	<entry name="name" mtime="1301348718" type="string">
+		<stringvalue>scite</stringvalue>
+	</entry>
+	<entry name="binding" mtime="1301348724" type="string">
+		<stringvalue>&lt;Control&gt;&lt;Alt&gt;q</stringvalue>
+	</entry>
+</gconf>

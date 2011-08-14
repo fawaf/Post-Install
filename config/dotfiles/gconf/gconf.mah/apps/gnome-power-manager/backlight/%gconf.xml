@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="brightness_dim_battery" mtime="1312167428" type="int" value="50"/>
+	<entry name="brightness_ac" mtime="1312791552" type="int" value="100"/>
+	<entry name="idle_dim_battery" mtime="1312791461" type="bool" value="true"/>
+	<entry name="battery_reduce" mtime="1312791461" type="bool" value="true"/>
+	<entry name="idle_dim_ac" mtime="1312791461" type="bool" value="false"/>
+</gconf>

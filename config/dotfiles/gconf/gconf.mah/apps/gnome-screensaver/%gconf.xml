@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="idle_activation_enabled" mtime="1293495545" type="bool" value="false"/>
+	<entry name="lock_enabled" mtime="1293495544" type="bool" value="false"/>
+	<entry name="themes" mtime="1307894440" type="list" ltype="string">
+	</entry>
+	<entry name="mode" mtime="1307894440" type="string">
+		<stringvalue>blank-only</stringvalue>
+	</entry>
+</gconf>

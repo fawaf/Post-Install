@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="last_save_directory" mtime="1312139772" type="string">
+		<stringvalue>file:///media/364E034D4E0304F9/Users/Mahh/Pictures/Walls%20and%20Goods</stringvalue>
+	</entry>
+	<entry name="border_effect" mtime="1312139765" type="string">
+		<stringvalue>none</stringvalue>
+	</entry>
+	<entry name="delay" mtime="1312139765" type="int" value="0"/>
+	<entry name="include_pointer" mtime="1312139765" type="bool" value="true"/>
+	<entry name="include_border" mtime="1312139765" type="bool" value="true"/>
+</gconf>

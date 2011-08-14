@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="history-gnome-run" mtime="1313291035" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>launcher</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>Search</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>emapth</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>virtualbox</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>rhythmbox</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>firefox</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>Banshee</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>Rhythmbox</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>empathy</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>gconf-editor</stringvalue>
+		</li>
+	</entry>
+</gconf>

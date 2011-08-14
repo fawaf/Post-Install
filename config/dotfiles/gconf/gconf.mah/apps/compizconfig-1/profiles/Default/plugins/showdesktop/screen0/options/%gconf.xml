@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="window_opacity" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showdesktop/screen0/options/window_opacity"/>
+	<entry name="window_match" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showdesktop/screen0/options/window_match"/>
+	<entry name="timestep" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showdesktop/screen0/options/timestep"/>
+	<entry name="window_part_size" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showdesktop/screen0/options/window_part_size"/>
+	<entry name="speed" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showdesktop/screen0/options/speed"/>
+	<entry name="direction" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showdesktop/screen0/options/direction"/>
+</gconf>

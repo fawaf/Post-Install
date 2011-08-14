@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="group" mtime="1310357682" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>tkip</stringvalue>
+		</li>
+	</entry>
+	<entry name="pairwise" mtime="1310357682" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>tkip</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>ccmp</stringvalue>
+		</li>
+	</entry>
+	<entry name="proto" mtime="1310357682" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>wpa</stringvalue>
+		</li>
+	</entry>
+	<entry name="key-mgmt" mtime="1310357682" type="string">
+		<stringvalue>wpa-psk</stringvalue>
+	</entry>
+	<entry name="name" mtime="1310357682" type="string">
+		<stringvalue>802-11-wireless-security</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="virtual_root" mtime="1313276471" type="string">
+		<stringvalue>file:///home/mah/Programming/Bash/Post-Install</stringvalue>
+	</entry>
+	<entry name="root" mtime="1313276471" type="string">
+		<stringvalue>file:///</stringvalue>
+	</entry>
+	<entry name="tree_view" mtime="1313276471" type="bool" value="true"/>
+</gconf>

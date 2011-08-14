@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="on_transformed_screen" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/mblur/screen0/options/on_transformed_screen"/>
+	<entry name="mode" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/mblur/screen0/options/mode"/>
+	<entry name="strength" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/mblur/screen0/options/strength" type="float" value="0.004999999888241291"/>
+	<entry name="initiate_key" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/mblur/screen0/options/initiate_key" type="string">
+		<stringvalue>&lt;Control&gt;&lt;Super&gt;</stringvalue>
+	</entry>
+</gconf>

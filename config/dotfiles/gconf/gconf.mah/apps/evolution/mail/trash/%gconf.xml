@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="empty_on_exit_days" mtime="1301606286" type="int" value="0"/>
+	<entry name="empty_on_exit" mtime="1313013657" type="bool" value="false"/>
+</gconf>

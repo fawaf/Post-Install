@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="applet_id_list" mtime="1312045259" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>fast_user_switch_screen0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>clock_screen0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>applet_0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>applet_1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>fast_user_switch_screen1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>trashapplet_screen1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>workspace_switcher_screen1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>window_list_screen1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>show_desktop_button_screen1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>indicator_applet_screen1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>notification_area_screen1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>clock_screen1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>applet_2</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>applet_4</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>applet_3</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>applet_6</stringvalue>
+		</li>
+	</entry>
+	<entry name="object_id_list" mtime="1312045259" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>object_12</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>object_11</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>object_9</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>menu_bar_screen0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>browser_launcher_screen1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>menu_bar_screen1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>object_6</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>object_10</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>object_4</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>object_7</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>object_5</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>object_0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>object_1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>object_8</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>object_3</stringvalue>
+		</li>
+	</entry>
+	<entry name="toplevel_id_list" mtime="1312045259" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>top_panel_screen0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>panel_0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>bottom_panel_screen1</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>top_panel_screen1</stringvalue>
+		</li>
+	</entry>
+</gconf>

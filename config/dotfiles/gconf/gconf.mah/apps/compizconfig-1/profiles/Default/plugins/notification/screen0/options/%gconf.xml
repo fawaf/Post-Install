@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="max_log_level" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/notification/screen0/options/max_log_level"/>
+	<entry name="timeout" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/notification/screen0/options/timeout"/>
+</gconf>
