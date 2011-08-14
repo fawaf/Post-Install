@@ -5,12 +5,12 @@ sed_escape () {
 # Takes in a space separated list and allows
 # user to choose one. returns that choice
 function choose_from_selection {
-  echo "Enter index number of selection"
+  echo "Enter Index Number of Selection"
   echo "Possible Selections: "
 
   local i=0
   for selection_type in $*; do
-    echo $i: $selection_type
+    echo [$i]: $selection_type
     local selectables[$i]=$selection_type
     let i="$i+1"
   done
@@ -20,7 +20,6 @@ function choose_from_selection {
 }
 
 determine_OS () {
-  echo "Determining your operating System!"
   if (uname -a | grep 'Darwin'); then
     platform='MACOSX'
   elif (uname -a | grep 'Linux'); then

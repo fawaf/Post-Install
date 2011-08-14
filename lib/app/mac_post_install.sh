@@ -114,4 +114,5 @@ choose_what_to_do () {
   done
 }
 
+echo "Installer for Mac Software... Kevin's crapola!"
 choose_what_to_do
