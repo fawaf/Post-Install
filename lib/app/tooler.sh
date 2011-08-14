@@ -5,4 +5,4 @@ echo "Welcome to the Linux Tooler"
 
 choose_from_selection $(ls $root/lib/tools)
 selection=$RETURN
-source $root/lib/misc/$selection
+source $root/lib/tools/$selection
