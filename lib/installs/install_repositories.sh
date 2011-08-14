@@ -1,15 +1,38 @@
 sudo add-apt-repository ppa:tiheum/equinox
+
+##thunderbird ppa
 sudo add-apt-repository ppa:mozillateam/thunderbird-stable
+
+#gimp daily ppa
 sudo add-apt-repository ppa:matthaeus123/mrw-gimp-svn
+
+##gwibber microbloggin client ppa
 sudo add-apt-repository ppa:gwibber-team/ppa
+
+##wine ppa
 sudo add-apt-repository ppa:ubuntu-wine/ppa
+
+##git ppa
 sudo add-apt-repository ppa:git-core/ppa
+
+##ubuntu tweak ppa
 sudo add-apt-repository ppa:tualatrix/ppa
+
+##xbmc media center unstable ppa
 sudo add-apt-repository ppa:team-xbmc/unstable
+
+##openshot video editor ppa
 sudo add-apt-repository ppa:jonoomph/openshot-edge
+
+##lookit screencap program ppa
 sudo add-apt-repository ppa:lookit/ppa
+
+##super-boot-manager ppa
 sudo add-apt-repository ppa:ingalex/super-boot-manager
+
+##pithos (lightweight pandora client) ppa
 sudo add-apt-repository ppa:kevin-mehall/pithos-daily
+
 
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
 
