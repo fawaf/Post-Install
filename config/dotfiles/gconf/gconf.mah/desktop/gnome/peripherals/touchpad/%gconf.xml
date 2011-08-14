@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="scroll_method" mtime="1310787889" type="int" value="1"/>
+	<entry name="tap_to_click" mtime="1310787858" type="bool" value="false"/>
+	<entry name="touchpad_enabled" mtime="1296502330" type="bool" value="true"/>
+	<entry name="config_migration_needed" mtime="1292913634" type="bool" value="false"/>
+</gconf>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="devices" mtime="1313256822" type="bool" value="false"/>
+	<entry name="playlists" mtime="1313278565" type="bool" value="false"/>
+	<entry name="shared" mtime="1313167645" type="bool" value="false"/>
+	<entry name="stores" mtime="1313278564" type="bool" value="false"/>
+	<entry name="library" mtime="1313278564" type="bool" value="false"/>
+</gconf>

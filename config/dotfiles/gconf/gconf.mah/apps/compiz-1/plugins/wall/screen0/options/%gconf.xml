@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="preview_timeout" mtime="1312789071" type="float" value="0.5"/>
+	<entry name="border_width" mtime="1312789071" type="int" value="30"/>
+</gconf>

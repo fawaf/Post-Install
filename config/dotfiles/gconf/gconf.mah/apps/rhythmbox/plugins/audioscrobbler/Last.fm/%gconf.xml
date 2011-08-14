@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="scrobbling_enabled" mtime="1313278559" type="bool" value="true"/>
+	<entry name="enabled" mtime="1313278558" type="bool" value="true"/>
+</gconf>

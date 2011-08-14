@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="toolbar_size" mtime="1312167442" type="int" value="150"/>
+	<entry name="sourcecenter_version" mtime="1307691852" type="string">
+		<stringvalue>1304774412</stringvalue>
+	</entry>
+	<entry name="sourcecenter_update" mtime="1307691852" type="bool" value="true"/>
+	<entry name="appcenter_version" mtime="1307690479" type="string">
+		<stringvalue>1304049780</stringvalue>
+	</entry>
+	<entry name="sync_notify" mtime="1307690479" type="bool" value="true"/>
+	<entry name="appcenter_update" mtime="1307691859" type="bool" value="false"/>
+	<entry name="enable_new_item" mtime="1307690479" type="bool" value="true"/>
+	<entry name="disable_stable_source_warning" mtime="1307690474" type="bool" value="false"/>
+	<entry name="separated_sources" mtime="1307690470" type="bool" value="true"/>
+	<entry name="check_update" mtime="1307690470" type="bool" value="true"/>
+	<entry name="window_height" mtime="1312167442" type="int" value="500"/>
+	<entry name="window_width" mtime="1312167442" type="int" value="900"/>
+</gconf>

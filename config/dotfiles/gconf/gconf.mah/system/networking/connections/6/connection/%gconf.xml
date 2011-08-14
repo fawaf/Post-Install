@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="timestamp" mtime="1310357742" type="string">
+		<stringvalue>1310355952</stringvalue>
+	</entry>
+	<entry name="type" mtime="1310357742" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+	<entry name="uuid" mtime="1310357742" type="string">
+		<stringvalue>aa28a97d-7ba3-49b9-9e65-d74738e9d625</stringvalue>
+	</entry>
+	<entry name="id" mtime="1310357742" type="string">
+		<stringvalue>Auto mahtether</stringvalue>
+	</entry>
+	<entry name="name" mtime="1310357742" type="string">
+		<stringvalue>connection</stringvalue>
+	</entry>
+</gconf>

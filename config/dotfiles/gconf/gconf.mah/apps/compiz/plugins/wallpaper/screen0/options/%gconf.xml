@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="bg_color2" mtime="1292919528" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+	</entry>
+	<entry name="bg_color1" mtime="1292919528" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+	</entry>
+	<entry name="bg_fill_type" mtime="1292979438" type="list" ltype="int">
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+	</entry>
+	<entry name="bg_image_pos" mtime="1292979435" type="list" ltype="int">
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+	</entry>
+	<entry name="bg_image" mtime="1292979628" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Space Wallpapers/wallpaper-271115.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Space Wallpapers/wallpaper-455224.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Space Wallpapers/wallpaper-462796.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Space Wallpapers/wallpaper-519486.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Space Wallpapers/wallpaper-683159.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Space Wallpapers/wallpaper-683179.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Space Wallpapers/wallpaper-701867.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Space Wallpapers/wallpaper-729946.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Space Wallpapers/wallpaper-730802.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Space Wallpapers/wallpaper-730809.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Space Wallpapers/wallpaper-731170.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Space Wallpapers/wallpaper-731178.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Space Wallpapers/wallpaper-731181.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Space Wallpapers/wallpaper-731182.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Space Wallpapers/wallpaper-737830.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Space Wallpapers/wallpaper-773019.jpg</stringvalue>
+		</li>
+	</entry>
+</gconf>

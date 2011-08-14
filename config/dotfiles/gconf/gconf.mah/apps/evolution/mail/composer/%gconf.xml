@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="group_reply_to_list" mtime="1313013657" type="bool" value="false"/>
+	<entry name="ignore_list_reply_to" mtime="1313013657" type="bool" value="false"/>
+	<entry name="spell_languages" mtime="1301606286" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>en_US</stringvalue>
+		</li>
+	</entry>
+	<entry name="no_signature_delim" mtime="1313013657" type="bool" value="false"/>
+	<entry name="top_signature" mtime="1313013657" type="bool" value="false"/>
+	<entry name="spell_color" mtime="1313013657" type="string">
+		<stringvalue>#FFFF00000000</stringvalue>
+	</entry>
+	<entry name="request_receipt" mtime="1313013657" type="bool" value="false"/>
+	<entry name="reply_start_bottom" mtime="1313013657" type="bool" value="false"/>
+	<entry name="outlook_filenames" mtime="1313013657" type="bool" value="false"/>
+	<entry name="magic_smileys" mtime="1313013657" type="bool" value="false"/>
+	<entry name="magic_links" mtime="1313013657" type="bool" value="true"/>
+	<entry name="inline_spelling" mtime="1313013657" type="bool" value="true"/>
+	<entry name="send_html" mtime="1313013657" type="bool" value="false"/>
+	<entry name="charset" mtime="1313013657" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+</gconf>

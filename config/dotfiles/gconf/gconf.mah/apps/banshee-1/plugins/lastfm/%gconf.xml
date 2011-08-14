@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="first_run" mtime="1305086953" type="bool" value="false"/>
+	<entry name="username" mtime="1313207056" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+	<entry name="subscriber" mtime="1313207062" type="bool" value="false"/>
+	<entry name="session_key" mtime="1313207062" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+</gconf>

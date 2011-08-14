@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="type" mtime="1313272576" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+	<entry name="uuid" mtime="1313272576" type="string">
+		<stringvalue>196fc23d-9c99-4d4e-a1c2-bdea565c04ad</stringvalue>
+	</entry>
+	<entry name="id" mtime="1313272576" type="string">
+		<stringvalue>Auto Jessica Mah&apos;s MacBook Air</stringvalue>
+	</entry>
+	<entry name="name" mtime="1313272576" type="string">
+		<stringvalue>connection</stringvalue>
+	</entry>
+</gconf>

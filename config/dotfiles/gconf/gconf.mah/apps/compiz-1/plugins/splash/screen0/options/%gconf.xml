@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="display_time" mtime="1312788773" type="float" value="0.289000004529953"/>
+	<entry name="fade_time" mtime="1312788764" type="float" value="0.86710000038146973"/>
+	<entry name="saturation" mtime="1312788729" type="float" value="32.659000396728516"/>
+	<entry name="logo" mtime="1312788662" type="string">
+		<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/sharp/miku_mug two.png</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="in_saturation" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/loginout/screen0/options/in_saturation"/>
+	<entry name="in_brightness" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/loginout/screen0/options/in_brightness"/>
+	<entry name="out_time" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/loginout/screen0/options/out_time"/>
+	<entry name="out_opacity" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/loginout/screen0/options/out_opacity"/>
+	<entry name="in_time" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/loginout/screen0/options/in_time"/>
+	<entry name="in_opacity" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/loginout/screen0/options/in_opacity"/>
+	<entry name="out_match" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/loginout/screen0/options/out_match"/>
+	<entry name="out_brightness" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/loginout/screen0/options/out_brightness"/>
+	<entry name="out_saturation" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/loginout/screen0/options/out_saturation"/>
+	<entry name="in_match" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/loginout/screen0/options/in_match"/>
+</gconf>

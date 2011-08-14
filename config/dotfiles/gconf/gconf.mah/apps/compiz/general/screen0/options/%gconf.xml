@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="outputs" mtime="1302812995" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>1024x768+0+0</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>1920x1080+1024+0</stringvalue>
+		</li>
+	</entry>
+	<entry name="hsize" mtime="1302903516" type="int" value="4"/>
+	<entry name="vsize" mtime="1302903516" type="int" value="4"/>
+</gconf>

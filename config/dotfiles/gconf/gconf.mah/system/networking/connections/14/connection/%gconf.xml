@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="timestamp" mtime="1311141238" type="string">
+		<stringvalue>1311141238</stringvalue>
+	</entry>
+	<entry name="type" mtime="1311141238" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+	<entry name="uuid" mtime="1311141238" type="string">
+		<stringvalue>827f9862-9ee0-4f15-b9c2-1e75056484ce</stringvalue>
+	</entry>
+	<entry name="id" mtime="1311141238" type="string">
+		<stringvalue>Auto wchurmanMBP15</stringvalue>
+	</entry>
+	<entry name="name" mtime="1311141238" type="string">
+		<stringvalue>connection</stringvalue>
+	</entry>
+</gconf>

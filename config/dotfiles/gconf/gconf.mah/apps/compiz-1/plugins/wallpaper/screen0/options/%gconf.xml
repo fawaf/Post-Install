@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="cycle_timeout" mtime="1313268985" type="float" value="9.8999996185302734"/>
+	<entry name="bg_color2" mtime="1313268985" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+	</entry>
+	<entry name="bg_color1" mtime="1313268985" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+	</entry>
+	<entry name="bg_fill_type" mtime="1313268985" type="list" ltype="int">
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+	</entry>
+	<entry name="bg_image_pos" mtime="1313268985" type="list" ltype="int">
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+	</entry>
+	<entry name="bg_image" mtime="1313269049" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/Konachan.com - 85258 gorogorou headphones ipod kagamine_rin seifuku vocaloid white.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/wallpaper-889232.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Backgrounds/Megaman - VolnuttDesign.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/Konachan.com - 101488 aqua_eyes aqua_hair hatsune_miku headphones long_hair so-bin twintails vocaloid.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/Konachan.com - 95665 kagamine_len kagamine_rin kl len_append rin_append vocaloid.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/wallpaper-661989.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/Konachan.com - 78498 dmyo kagamine_len kagamine_rin scan thighhighs vocaloid white cleaned.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/Konachan.com - 110518 blonde_hair blue_eyes choker close kagamine_rin vocaloid wink yayoi_(egoistic_realism).jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/1281327251887.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/Konachan.com - 104421 kagamine_rin vocaloid white.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/1278476022215.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/Konachan.com - 44024 k2pudding kagamine_rin koi_wa_sensou_(vocaloid) vocaloid.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/Konachan.com - 106631 hatsune_miku sazanami_shione vocaloid.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/Konachan.com - 95639 kagamine_len kagamine_rin len_append rin_append soriku vocaloid.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/Konachan.com - 94198 scaled.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/Konachan.com - 106455 blonde_hair blue_eyes kagamine_rin ribbons sama seifuku short_hair skirt vocaloid.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/1281326648210.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/Konachan.com - 108110 gumi vocaloid.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/Vocaloid - wallpaper-813293.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/1272780628896.jpg</stringvalue>
+		</li>
+	</entry>
+</gconf>

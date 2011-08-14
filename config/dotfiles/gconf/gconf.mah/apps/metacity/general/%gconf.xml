@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="focus_mode" mtime="1307690161" type="string">
+		<stringvalue>click</stringvalue>
+	</entry>
+	<entry name="compositing_manager" mtime="1302928830" type="bool" value="true"/>
+	<entry name="num_workspaces" mtime="1302903485" type="int" value="16"/>
+	<entry name="button_layout" mtime="1313287187" type="string">
+		<stringvalue>menu:minimize,maximize,close</stringvalue>
+	</entry>
+	<entry name="theme" mtime="1313287187" type="string">
+		<stringvalue>ClearlooksClassic</stringvalue>
+	</entry>
+</gconf>

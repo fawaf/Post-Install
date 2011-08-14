@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="inc_button" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/shelf/screen0/options/inc_button"/>
+	<entry name="dec_button" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/shelf/screen0/options/dec_button"/>
+	<entry name="triggerscreen_key" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/shelf/screen0/options/triggerscreen_key"/>
+	<entry name="reset_key" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/shelf/screen0/options/reset_key"/>
+	<entry name="interval" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/shelf/screen0/options/interval"/>
+	<entry name="animtime" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/shelf/screen0/options/animtime"/>
+	<entry name="trigger_key" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/shelf/screen0/options/trigger_key"/>
+</gconf>

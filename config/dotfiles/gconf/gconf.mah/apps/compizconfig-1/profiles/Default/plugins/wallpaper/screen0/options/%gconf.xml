@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="fade_duration" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/wallpaper/screen0/options/fade_duration"/>
+	<entry name="bg_image" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/wallpaper/screen0/options/bg_image" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/wallpaper-889232.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/Konachan.com - 106631 sample.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Backgrounds/Megaman - VolnuttDesign.jpg</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>/media/364E034D4E0304F9/Users/Mahh/Pictures/Walls and Goods/Vocaloid/Konachan.com - 101488 sample.jpg</stringvalue>
+		</li>
+	</entry>
+	<entry name="cycle_wallpapers" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/wallpaper/screen0/options/cycle_wallpapers"/>
+	<entry name="bg_color2" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/wallpaper/screen0/options/bg_color2" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#89abe9ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+	</entry>
+	<entry name="bg_color1" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/wallpaper/screen0/options/bg_color1" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>#000000ff</stringvalue>
+		</li>
+	</entry>
+	<entry name="cycle_timeout" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/wallpaper/screen0/options/cycle_timeout"/>
+	<entry name="bg_fill_type" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/wallpaper/screen0/options/bg_fill_type" type="list" ltype="int">
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="1"/>
+		<li type="int" value="0"/>
+	</entry>
+	<entry name="bg_image_pos" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/wallpaper/screen0/options/bg_image_pos" type="list" ltype="int">
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+		<li type="int" value="0"/>
+	</entry>
+</gconf>

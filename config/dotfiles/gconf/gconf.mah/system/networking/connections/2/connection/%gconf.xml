@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="timestamp" mtime="1312171398" type="string">
+		<stringvalue>1312171398</stringvalue>
+	</entry>
+	<entry name="type" mtime="1312171398" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+	<entry name="uuid" mtime="1312171398" type="string">
+		<stringvalue>9da67f1f-215f-4afc-bb44-438077e04e68</stringvalue>
+	</entry>
+	<entry name="id" mtime="1312171398" type="string">
+		<stringvalue>Auto ZEECS</stringvalue>
+	</entry>
+	<entry name="name" mtime="1312171398" type="string">
+		<stringvalue>connection</stringvalue>
+	</entry>
+</gconf>

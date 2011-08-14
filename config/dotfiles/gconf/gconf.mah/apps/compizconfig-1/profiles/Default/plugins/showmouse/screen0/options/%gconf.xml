@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="random" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showmouse/screen0/options/random"/>
+	<entry name="darken" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showmouse/screen0/options/darken"/>
+	<entry name="emiters" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showmouse/screen0/options/emiters"/>
+	<entry name="slowdown" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showmouse/screen0/options/slowdown"/>
+	<entry name="color" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showmouse/screen0/options/color"/>
+	<entry name="initiate" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showmouse/screen0/options/initiate"/>
+	<entry name="num_particles" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showmouse/screen0/options/num_particles"/>
+	<entry name="radius" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showmouse/screen0/options/radius"/>
+	<entry name="initiate_button" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showmouse/screen0/options/initiate_button"/>
+	<entry name="size" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showmouse/screen0/options/size"/>
+	<entry name="initiate_edge" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showmouse/screen0/options/initiate_edge"/>
+	<entry name="life" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showmouse/screen0/options/life"/>
+	<entry name="blend" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showmouse/screen0/options/blend"/>
+	<entry name="rotation_speed" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/showmouse/screen0/options/rotation_speed"/>
+</gconf>

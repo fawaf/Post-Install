@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="expo_edge" mtime="1313209396" type="string">
+		<stringvalue>TopRight</stringvalue>
+	</entry>
+</gconf>

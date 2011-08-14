@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="locate_pointer" mtime="1307130789" type="bool" value="false"/>
+	<entry name="motion_acceleration" mtime="1310787851" type="float" value="0.20000000298023224"/>
+	<entry name="motion_threshold" mtime="1310787853" type="int" value="1"/>
+	<entry name="cursor_theme" mtime="1312760212" type="string">
+		<stringvalue>default</stringvalue>
+	</entry>
+	<entry name="cursor_size" mtime="1312079860" type="int" value="18"/>
+</gconf>

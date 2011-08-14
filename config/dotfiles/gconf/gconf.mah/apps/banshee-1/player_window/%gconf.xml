@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="open_location_history" mtime="1311315349" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>file:///media/364E034D4E0304F9/Audio/Good%20Misc/Kimi%20no%20Shiranai%20Monogatari.mp3</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue></stringvalue>
+		</li>
+	</entry>
+	<entry name="last_file_chooser_uri" mtime="1311921947" type="string">
+		<stringvalue>file:///media/364E034D4E0304F9/Audio/Vocaloid</stringvalue>
+	</entry>
+	<entry name="height" mtime="1313217189" type="int" value="1028"/>
+	<entry name="width" mtime="1313217189" type="int" value="1281"/>
+	<entry name="y_pos" mtime="1313217189" type="int" value="40"/>
+	<entry name="x_pos" mtime="1313217189" type="int" value="349"/>
+	<entry name="maximized" mtime="1313217189" type="bool" value="false"/>
+	<entry name="disable_album_grid" mtime="1313207057" type="bool" value="false"/>
+	<entry name="seek_slider_width" mtime="1313209405" type="int" value="175"/>
+	<entry name="source_view_width" mtime="1313217197" type="int" value="175"/>
+</gconf>

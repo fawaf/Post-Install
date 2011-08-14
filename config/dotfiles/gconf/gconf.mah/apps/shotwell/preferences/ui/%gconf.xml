@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="photo_thumbnail_scale" mtime="1306807804" type="int" value="128"/>
+	<entry name="show_welcome_dialog" mtime="1306807796" type="bool" value="true"/>
+	<entry name="events_sort_ascending" mtime="1306807789" type="bool" value="false"/>
+	<entry name="display_basic_properties" mtime="1306807789" type="bool" value="true"/>
+</gconf>

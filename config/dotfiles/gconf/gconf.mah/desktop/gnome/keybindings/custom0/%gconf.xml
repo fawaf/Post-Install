@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="action" mtime="1301348720" type="string">
+		<stringvalue>/opt/google/chrome/google-chrome %U</stringvalue>
+	</entry>
+	<entry name="name" mtime="1301348720" type="string">
+		<stringvalue>Chrome</stringvalue>
+	</entry>
+	<entry name="binding" mtime="1292916243" type="string">
+		<stringvalue>&lt;Control&gt;&lt;Alt&gt;x</stringvalue>
+	</entry>
+</gconf>

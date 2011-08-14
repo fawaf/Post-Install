@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="sources" mtime="1309295858" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;group uid=&quot;1301606283.2320.15@mahh-laptop&quot; name=&quot;WebDAV&quot; base_uri=&quot;webdav://&quot; readonly=&quot;no&quot;/&gt;
+</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;group uid=&quot;1301606283.2320.17@mahh-laptop&quot; name=&quot;Google&quot; base_uri=&quot;google://&quot; readonly=&quot;no&quot;/&gt;
+</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;group uid=&quot;1301606284.2320.18@mahh-laptop&quot; name=&quot;CouchDB&quot; base_uri=&quot;couchdb://&quot; readonly=&quot;no&quot;&gt;&lt;source uid=&quot;1301606284.2320.19@mahh-laptop&quot; name=&quot;Ubuntu One&quot; relative_uri=&quot;127.0.0.1&quot;&gt;&lt;properties&gt;&lt;property name=&quot;couchdb_instance&quot; value=&quot;user&quot;/&gt;&lt;/properties&gt;&lt;/source&gt;&lt;/group&gt;
+</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;group uid=&quot;1301606285.2320.23@mahh-laptop&quot; name=&quot;On This Computer&quot; base_uri=&quot;local:&quot; readonly=&quot;no&quot;&gt;&lt;source uid=&quot;1301606285.2320.24@mahh-laptop&quot; name=&quot;Personal&quot; relative_uri=&quot;system&quot;&gt;&lt;properties&gt;&lt;property name=&quot;completion&quot; value=&quot;true&quot;/&gt;&lt;/properties&gt;&lt;/source&gt;&lt;/group&gt;
+</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;group uid=&quot;1301606285.2320.25@mahh-laptop&quot; name=&quot;On LDAP Servers&quot; base_uri=&quot;ldap://&quot; readonly=&quot;no&quot;/&gt;
+</stringvalue>
+		</li>
+	</entry>
+</gconf>

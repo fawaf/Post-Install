@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="min_opacity" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/trailfocus/screen0/options/min_opacity"/>
+	<entry name="min_saturation" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/trailfocus/screen0/options/min_saturation"/>
+	<entry name="min_brightness" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/trailfocus/screen0/options/min_brightness"/>
+	<entry name="windows_start" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/trailfocus/screen0/options/windows_start"/>
+	<entry name="max_opacity" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/trailfocus/screen0/options/max_opacity"/>
+	<entry name="max_saturation" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/trailfocus/screen0/options/max_saturation"/>
+	<entry name="max_brightness" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/trailfocus/screen0/options/max_brightness"/>
+	<entry name="window_match" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/trailfocus/screen0/options/window_match"/>
+	<entry name="windows_count" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/trailfocus/screen0/options/windows_count"/>
+</gconf>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="brightness" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/addhelper/screen0/options/brightness"/>
+	<entry name="saturation" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/addhelper/screen0/options/saturation"/>
+	<entry name="ononinit" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/addhelper/screen0/options/ononinit"/>
+	<entry name="opacity" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/addhelper/screen0/options/opacity"/>
+	<entry name="window_types" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/addhelper/screen0/options/window_types"/>
+	<entry name="toggle_key" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/addhelper/screen0/options/toggle_key"/>
+</gconf>

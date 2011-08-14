@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="auto_hide" mtime="1292915442" schema="/schemas/apps/panel/toplevels/auto_hide"/>
+	<entry name="y_bottom" mtime="1311870371" schema="/schemas/apps/panel/toplevels/y_bottom" type="int" value="-1"/>
+	<entry name="orientation" mtime="1293057467" schema="/schemas/apps/panel/toplevels/orientation" type="string">
+		<stringvalue>right</stringvalue>
+	</entry>
+	<entry name="y" mtime="1311870372" schema="/schemas/apps/panel/toplevels/y" type="int" value="0"/>
+	<entry name="x" mtime="1311870372" schema="/schemas/apps/panel/toplevels/x" type="int" value="1742"/>
+	<entry name="auto_hide_size" mtime="1292915442" schema="/schemas/apps/panel/toplevels/auto_hide_size"/>
+	<entry name="monitor" mtime="1302818629" schema="/schemas/apps/panel/toplevels/monitor" type="int" value="0"/>
+	<entry name="animation_speed" mtime="1292915442" schema="/schemas/apps/panel/toplevels/animation_speed"/>
+	<entry name="unhide_delay" mtime="1292915442" schema="/schemas/apps/panel/toplevels/unhide_delay"/>
+	<entry name="screen" mtime="1292915442" schema="/schemas/apps/panel/toplevels/screen" type="int" value="0"/>
+	<entry name="x_right" mtime="1311870372" schema="/schemas/apps/panel/toplevels/x_right" type="int" value="2"/>
+	<entry name="x_centered" mtime="1292915442" schema="/schemas/apps/panel/toplevels/x_centered"/>
+	<entry name="hide_delay" mtime="1292915442" schema="/schemas/apps/panel/toplevels/hide_delay"/>
+	<entry name="size" mtime="1293060953" schema="/schemas/apps/panel/toplevels/size" type="int" value="175"/>
+	<entry name="name" mtime="1292915442" schema="/schemas/apps/panel/toplevels/name"/>
+	<entry name="expand" mtime="1292915457" schema="/schemas/apps/panel/toplevels/expand" type="bool" value="false"/>
+	<entry name="enable_animations" mtime="1292915442" schema="/schemas/apps/panel/toplevels/enable_animations"/>
+	<entry name="y_centered" mtime="1311870371" schema="/schemas/apps/panel/toplevels/y_centered" type="bool" value="false"/>
+	<entry name="enable_buttons" mtime="1292915442" schema="/schemas/apps/panel/toplevels/enable_buttons"/>
+	<entry name="enable_arrows" mtime="1292915442" schema="/schemas/apps/panel/toplevels/enable_arrows"/>
+</gconf>

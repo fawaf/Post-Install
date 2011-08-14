@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="skewer_tessellation" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/skewer_tessellation"/>
+	<entry name="domino_direction" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/domino_direction"/>
+	<entry name="glide3_thickness" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/glide3_thickness"/>
+	<entry name="fire_direction" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/fire_direction"/>
+	<entry name="fold_dir" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/fold_dir"/>
+	<entry name="fire_constant_speed" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/fire_constant_speed"/>
+	<entry name="explode_tiers" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/explode_tiers"/>
+	<entry name="beam_spacing" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/beam_spacing"/>
+	<entry name="skewer_rotation" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/skewer_rotation"/>
+	<entry name="time_step_intense" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/time_step_intense"/>
+	<entry name="beam_slowdown" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/beam_slowdown"/>
+	<entry name="skewer_thickness" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/skewer_thickness"/>
+	<entry name="explode_gridy" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/explode_gridy"/>
+	<entry name="explode_gridx" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/explode_gridx"/>
+	<entry name="fire_slowdown" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/fire_slowdown"/>
+	<entry name="fire_mystical" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/fire_mystical"/>
+	<entry name="airplane_path_length" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/airplane_path_length"/>
+	<entry name="glide3_away_angle" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/glide3_away_angle"/>
+	<entry name="beam_life" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/beam_life"/>
+	<entry name="fire_smoke" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/fire_smoke"/>
+	<entry name="explode_thickness" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/explode_thickness"/>
+	<entry name="razr_direction" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/razr_direction"/>
+	<entry name="glide3_away_position" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/glide3_away_position"/>
+	<entry name="fire_life" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/fire_life"/>
+	<entry name="airplane_fly_to_taskbar" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/airplane_fly_to_taskbar"/>
+	<entry name="explode_tessellation" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/explode_tessellation"/>
+	<entry name="explode_spokes" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/explode_spokes"/>
+	<entry name="fire_color" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/fire_color"/>
+	<entry name="fire_particles" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/fire_particles"/>
+	<entry name="beam_size" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/beam_size"/>
+	<entry name="beam_color" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/beam_color"/>
+	<entry name="fire_size" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/fire_size"/>
+	<entry name="skewer_gridy" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/skewer_gridy"/>
+	<entry name="fold_gridy" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/fold_gridy" type="int" value="5"/>
+	<entry name="fold_gridx" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/fold_gridx"/>
+	<entry name="skewer_gridx" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/skewer_gridx"/>
+	<entry name="skewer_direction" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/animationaddon/screen0/options/skewer_direction"/>
+</gconf>

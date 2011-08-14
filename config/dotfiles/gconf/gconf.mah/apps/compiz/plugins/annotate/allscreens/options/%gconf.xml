@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="fill_color" mtime="1301521680" type="string">
+		<stringvalue>#ff000fff</stringvalue>
+	</entry>
+	<entry name="stroke_width" mtime="1301520856" type="float" value="5.2199001312255859"/>
+</gconf>

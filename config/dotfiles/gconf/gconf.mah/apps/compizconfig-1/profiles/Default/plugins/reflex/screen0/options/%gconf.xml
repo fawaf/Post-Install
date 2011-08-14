@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="file" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/reflex/screen0/options/file"/>
+	<entry name="threshold" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/reflex/screen0/options/threshold"/>
+	<entry name="window" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/reflex/screen0/options/window"/>
+	<entry name="match" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/reflex/screen0/options/match"/>
+	<entry name="moving" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/reflex/screen0/options/moving"/>
+	<entry name="decoration" mtime="1312099024" schema="/schemas/apps/compiz-1/plugins/reflex/screen0/options/decoration"/>
+</gconf>

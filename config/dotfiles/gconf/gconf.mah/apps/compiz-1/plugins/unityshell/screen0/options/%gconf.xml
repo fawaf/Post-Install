@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="show_launcher" mtime="1313216571" type="string">
+		<stringvalue>&lt;Control&gt;&lt;Alt&gt;slash</stringvalue>
+	</entry>
+	<entry name="keyboard_focus" mtime="1313216571" type="string">
+		<stringvalue>&lt;Control&gt;&lt;Alt&gt;l</stringvalue>
+	</entry>
+	<entry name="execute_command" mtime="1313216571" type="string">
+		<stringvalue>&lt;Control&gt;&lt;Alt&gt;semicolon</stringvalue>
+	</entry>
+</gconf>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="column" mtime="1311101760" type="string">
+		<stringvalue>display_artist_name</stringvalue>
+	</entry>
+</gconf>

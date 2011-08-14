@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="active" mtime="1313278563" type="bool" value="true"/>
+	<entry name="first_time_flag" mtime="1305081466" type="bool" value="true"/>
+</gconf>

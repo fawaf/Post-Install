@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="timestamp" mtime="1299530100" type="string">
+		<stringvalue>1299530100</stringvalue>
+	</entry>
+	<entry name="type" mtime="1299530100" type="string">
+		<stringvalue>802-11-wireless</stringvalue>
+	</entry>
+	<entry name="uuid" mtime="1299530100" type="string">
+		<stringvalue>150cb0b9-2088-43ed-a614-75b0ad4ce238</stringvalue>
+	</entry>
+	<entry name="id" mtime="1299530100" type="string">
+		<stringvalue>Auto Belkin.3D9C</stringvalue>
+	</entry>
+	<entry name="name" mtime="1299530100" type="string">
+		<stringvalue>connection</stringvalue>
+	</entry>
+</gconf>

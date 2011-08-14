@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="nautilus-window-scroll-position" mtime="1292919555" type="string">
+		<stringvalue>x-nautilus-desktop:///300%20GB%20Filesystem.volume</stringvalue>
+	</entry>
+	<entry name="nautilus-icon-view-layout-timestamp" mtime="1292919114" type="string">
+		<stringvalue>1292919114</stringvalue>
+	</entry>
+	<entry name="nautilus-icon-view-keep-aligned" mtime="1292919114" type="string">
+		<stringvalue>true</stringvalue>
+	</entry>
+</gconf>
