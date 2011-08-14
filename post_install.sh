@@ -12,6 +12,9 @@ root=$(pwd) # the root of the app. Pass into all other scripts
 source $root/lib/app/helper.sh $root
 platform=''
 
+ureltemp=`egrep "DISTRIB_CODENAME=" /etc/lsb-release`
+urel=`echo "${ureltemp}"|cut -d "=" -f 2`
+
 #Takes the name of an app in lib/app
 run_app () {
   bash $root/lib/app/$1 $root
