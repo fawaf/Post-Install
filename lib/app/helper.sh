@@ -23,7 +23,8 @@ choose_from_selection() {
   done
 
   read -p "> " REPLY
-  RETURN=${selectables[$REPLY]}
+  choice=${selectables[$REPLY]}
+  RETURN=$choice
 }
 
 determine_OS() {
@@ -44,6 +45,7 @@ determine_bitage() {
   fi
 }
 
+# Takes a month number
 get_month() {
   if [ "$1" = 01 ]||[ "$1" = 1 ]; then
     echo "January"

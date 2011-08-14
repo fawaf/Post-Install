@@ -1,6 +1,6 @@
 # Kevin's crap
 # It's all crap for mac
-# I mean really... you have to install wget manually!
+# I mean really... you have to install wget manually what is this the stone age!
 source $1/lib/app/helper.sh $1
 
 check_homebrew () {

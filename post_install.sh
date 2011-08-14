@@ -12,6 +12,7 @@ root=$(pwd) # the root of the app. Pass into all other scripts
 source $root/lib/app/helper.sh $root
 platform=''
 
+#Takes the name of an app in lib/app
 run_app () {
   bash $root/lib/app/$1 $root
 }
@@ -26,11 +27,12 @@ choose_what_to_do () {
     echo "[D]otfile Cloner"
     echo "[I]nstall Software"
     echo "[H]elp"
-    echo "[M]ac = You are running a mac"
+    echo "[M]ac = You are running a Mac"
     echo "[Q]uit or [Exit]"
-    echo "[T]ools that aren't quite installs"
+    echo "[T]ools that aren't quite Installs. Like Miscellaneous"
     echo ""
-    read -p "Choose command: " REPLY
+
+    read -p "Choose Command: " REPLY
 
     # lowercases and extracts first character
     REPLY_FL=$(echo $REPLY | tr '[A-Z]' '[a-z]')
@@ -60,10 +62,10 @@ choose_what_to_do () {
 
 determine_OS
 
-if [ "$platform" = MACOSX ]; then
+if [[ "$platform" == MACOSX ]]; then
   mac_choose_what_to_do
-elif [ "$platform" = Linux ]; then
+elif [[ "$platform" == Linux ]]; then
   choose_what_to_do
 else
-  echo "Sorry bud but your OS sucks"
+  echo "Sorry bud but your OS is a pile of shit"
 fi
