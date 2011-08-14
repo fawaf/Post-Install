@@ -8,24 +8,10 @@ echo "Welcome to the Trollingwood Manor Post Install Script!"
 echo "-----------------------------------------"
 echo ""
 
-f=$(pwd) # 'pwd' is "present working directory"
+root=$(pwd) # 'pwd' is "present working directory"
+installers="$root/installers/installs/"
+source $root/lib/app/helper.sh
 platform=''
-
-sed_escape () {
-  echo $1| sed -e 's/\(\.\|\/\|\*\|\[\|\]\|\\\)/\\&/g'
-}
-
-
-determine_OS () {
-  echo "Determining your operating System!"
-  if (uname -a | grep 'Darwin'); then
-    platform='MACOSX'
-  elif (uname -a | grep 'Linux'); then
-    platform='Linux'
-  else
-    platform='Unknown'
-  fi
-}
 
 usr_local_permissions () {
   read -p "Change Permissions of /usr/local to ${USER} (y/n): " REPLY
@@ -48,79 +34,49 @@ qqy_upgrade () {
   sudo apt-get -qqy upgrade
 }
 
-get_month () {
-  if [ "$1" = 01 ]||[ "$1" = 1 ]; then
-    echo "January"
-  elif [ "$1" = 02 ]||[ "$1" = 2 ]; then
-    echo "February"
-  elif [ "$1" = 03 ]||[ "$1" = 3 ]; then
-    echo "March"
-  elif [ "$1" = 04 ]||[ "$1" = 4 ]; then
-    echo "April"
-  elif [ "$1" = 05 ]||[ "$1" = 5 ]; then
-    echo "May"
-  elif [ "$1" = 06 ]||[ "$1" = 6 ]; then
-    echo "June"
-  elif [ "$1" = 07 ]||[ "$1" = 7 ]; then
-    echo "July"
-  elif [ "$1" = 08 ]||[ "$1" = 8 ]; then
-    echo "August"
-  elif [ "$1" = 09 ]||[ "$1" = 9 ]; then
-    echo "September"
-  elif [ "$1" = 10 ]; then
-    echo "October"
-  elif [ "$1" = 11 ]; then
-    echo "November"
-  elif [ "$1" = 12 ]; then
-    echo "December"
-  else
-    echo "ERROR: Invalid month number"
-  fi
-}
-
 remove_evolution_indicator () {
   sudo apt-get remove evolution-indicator
 }
 
 choose_what_to_do () {
   while true; do
-    echo "installables: wifi_resume_script google_talk_plugin google_chrome"
-    echo "  google_earth google_music_manager dropbox minecraft truecrypt"
-    echo "  huludesktop gedit_plugins apps_no_repos apps_yes_repos"
-    echo "  super_os_repo repositories vaioz_app node nowtable"
-    echo "q = Quit"
-    echo "h = Help"
-    echo "mac = You are running a mac"
-    echo "d = sudo apt-get -qq update"
-    echo "g = sudo apt-get -qqy upgrade"
-    echo "1 = Install Repositories"
-    echo "2 = Change /usr/local Permissions"
-    echo "12 = Remove Evolution Indicator"
-    echo "aliases = Modify Aliases"
-    echo "dotfiles = Copy over example dotfiles"
+    echo "[I]nstall Software"
+    echo "[Q]uit or [Exit]"
+    echo "[H]elp"
+    echo "[M]ac = You are running a mac"
+    echo "[D] = sudo apt-get -qq update"
+    echo "[G] = sudo apt-get -qqy upgrade"
+    echo "[P] = Change /usr/local Permissions"
+    echo "[E} = Remove Evolution Indicator"
+    echo "[A]lias Modifier"
+    echo "[D]otfile Cloner"
     echo "666 = DO EVERYTHING!"
     echo ""
     read -p "Choose command: " REPLY
-    if [[ ("$REPLY" == "q") || ("$REPLY" == "exit") ]]; then
+
+    # lowercases and extracts first character
+    REPLY_FL=$(echo $REPLY | tr '[A-Z]' '[a-z]')
+    REPLY_FL=${REPLY_FL:0:1}
+
+    if [[ ("$REPLY_FL" == "q") || ("$REPLY" == "exit") ]]; then
       echo "Quiting..."
       return
-    elif [[ "$(expr index $REPLY install_)" == 1 ]]; then
-      echo "running $REPLY"
-      $REPLY
-    elif [[ "$REPLY" == "mac" ]]; then
-      bash mac_post_install.sh
-    elif [[ "$REPLY" = d ]]; then
+    elif [[ "$REPLY_FL" == "i" ]]; then
+      bash $root/lib/app/installer.sh $root
+    elif [[ "$REPLY_FL" == "m" ]]; then
+      bash $root/lib/app/mac_post_install.sh $root
+    elif [[ "$REPLY_FL" = d ]]; then
       qq_update
-    elif [[ "$REPLY" = g ]]; then
+    elif [[ "$REPLY_FL" = g ]]; then
       qqy_upgrade
-    elif [[ "$REPLY" = 2 ]]; then
+    elif [[ "$REPLY_FL" = p ]]; then
       usr_local_permissions
-    elif [[ "$REPLY" = 12 ]]; then
+    elif [[ "$REPLY_FL" = e ]]; then
       remove_evolution_indicator
-    elif [[ "$REPLY" = "aliases" ]]; then
+    elif [[ "$REPLY_FL" = "a" ]]; then
       modify_aliases
-    elif [[ "$REPLY" == "dotfiles" ]]; then
-      bash dotcloner.sh
+    elif [[ "$REPLY_FL" == "d" ]]; then
+      bash $root/lib/app/dotcloner.sh $root
     elif [[ "$REPLY" = 666 ]]; then
       usr_local_permissions
       qq_update
