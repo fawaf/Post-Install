@@ -60,7 +60,7 @@ else
   done
 
   echo "Installing Node.js..."
-  $root/lib/tools/usr_local_permissions.sh
+  $ROOT/lib/tools/usr_local_permissions.sh
   
   echo "DOWNLOADING FROM: http://nodejs.org/dist/${VINSTALL}.tar.gz"
   echo "PUTTING IN: ~/Downloads/node-${VVER}.tar.gz"

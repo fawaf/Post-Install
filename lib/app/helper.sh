@@ -2,18 +2,28 @@
 # Includes helper functions that any other script can want to call.
 # This file should only include functions but not actually run anything
 
-# This is kind of important because root will be set in all scripts the source helper.sh
-root=$1
+# This is kind of important because ROOT will be set in all scripts the source helper.sh
+ROOT=$1
 
 sed_escape() {
   echo $1| sed -e 's/\(\.\|\/\|\*\|\[\|\]\|\\\)/\\&/g'
 }
 
-# Takes in a space separated list and allows
-# user to choose one. returns that choice
+# Give the user the chance to read what might be on the screen
+# Before doing something else.. waits for .5 seconds
+hang() {
+  sleep .5
+}
+
+# Takes in a space separated list and asks the user to choose one.
+# Returns that choice. Generally you will pass
+# $(ls some_directory) as the parameter
 choose_from_selection() {
   choice=""
+
+  #Only a null response will be ""
   while [[ "$choice" == "" ]]; do
+    hang
     echo ""
     echo "Enter Index Number of Selection; n to escape"
     echo "Possible Selections: "
@@ -28,14 +38,27 @@ choose_from_selection() {
     done
 
     read -p "> " REPLY
-    REPLY_FL=$(echo $REPLY | tr '[A-Z]' '[a-z]')
+    REPLY_FL=$(lowercase $REPLY)
     choice=${selectables[$REPLY_FL]}
   done
   RETURN=$choice
 }
 
+lowercase() {
+  echo $1 | tr '[A-Z]' '[a-z]'
+}
+
+first() {
+  echo ${1:0:1}
+}
+
 echo_separator_bar() {
   echo "-----------------------------------------"
+}
+
+run_script() {
+  selection=$1
+  source $MINOR_DIRECTORY/$selection $ROOT
 }
 
 determine_OS() {
@@ -91,6 +114,7 @@ qq_update() {
   echo "sudo apt-get -qq update..."
   sudo apt-get -qq update
 }
+
 qq_upgrade() {
   echo "sudo apt-get -qqy upgrade..."
   qq_update

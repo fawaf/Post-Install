@@ -1,9 +1,10 @@
 source $1/lib/app/helper.sh $1
+MINOR_DIRECTORY=$ROOT/lib/installs
 
 echo_separator_bar
 echo "Welcome to the Linux installer app"
 
-choose_from_selection $(ls $root/lib/installs)
+choose_from_selection $(ls $MINOR_DIRECTORY)
 if [[ "$RETURN" == "FAILURE" ]]; then exit; fi
 selection=$RETURN
-source $root/lib/installs/$selection $root
+run_script $selection

@@ -1,10 +1,12 @@
 # globs through the dotfile directory for available dotfiles to clone
 source $1/lib/app/helper.sh $1
+MINOR_DIRECTORY=$ROOT/config/dotfiles
 
 # $1 is the type of dotfile
 # $2 is the dotfile to substitute in
 function replace_dotfile {
-  echo "This will replace your current $1,"
+  dot_old=$1; dot_new=$2
+  echo "This will replace your current $dot_old,"
   echo -n "enter [y] if this is alright: "
   read -p "" REPLY
   if [[ ! (("$REPLY" == "y") || ("$REPLY" == "Y")) ]]; then
@@ -12,11 +14,11 @@ function replace_dotfile {
     return
   fi
 
-  echo "Backing up $1 to $1.backup"
-  $(cp -R ~/.$1 ~/.$1.backup)
-  echo "Replacing $1 with $2"
-  $(rm -rf ~/.$1)
-  $(cp -R $2 ~/.$1)
+  echo "Backing up $dot_old to $dot_old.backup"
+  $(cp -R ~/.$dot_old ~/.$dot_old.backup)
+  echo "Replacing $dot_old with $dot_new"
+  $(rm -rf ~/.$dot_old)
+  $(cp -R $dot_new ~/.$dot_old)
 }
 
 # Searches through config/dotfiles for possible dotfile types
@@ -26,16 +28,17 @@ function replace_dotfile {
 function find_dottypes() {
   echo_separator_bar
   echo "available dotfile types"
-  choose_from_selection $(ls $root/config/dotfiles)
+  choose_from_selection $(ls $MINOR_DIRECTORY)
   if [[ "$RETURN" == "FAILURE" ]]; then return; fi
   local dottype=$RETURN
 
-  echo "Possible $1 files to read"
-  choose_from_selection $(ls $root/config/dotfiles/$dottype | tr " " "\n")
+  echo "Possible $dottype files to read"
+  choose_from_selection $(ls $MINOR_DIRECTORY/$dottype)
+  if [[ "$RETURN" == "FAILURE" ]]; then return; fi
   local dotfile=$RETURN
-  local dotfile_full=$root/config/dotfiles/$dottype/$dotfile
+  local dotfile_full=$MINOR_DIRECTORY/$dottype/$dotfile
 
-  echo "dotfile $root/config/dotfiles/$dottype/$dotfile"
+  echo "dotfile $MINOR_DIRECTORY/$dottype/$dotfile"
   replace_dotfile $dottype $dotfile_full
 }
 

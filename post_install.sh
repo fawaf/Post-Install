@@ -1,19 +1,18 @@
 #!/bin/bash
 ## Trolling Manor Post Install Script for Ubuntu (11.04) AND MACOSX!!!!!!
-## August 10, 2011
-## Version 0.01
 
-
-root=$(pwd) # the root of the app. Pass into all other scripts
-source $root/lib/app/helper.sh $root
+$ROOT=$(pwd) # the root of the app. Pass into all other scripts
+source $ROOT/lib/app/helper.sh $ROOT
 platform=''
 
 ureltemp=`egrep "DISTRIB_CODENAME=" /etc/lsb-release`
 urel=`echo "${ureltemp}"|cut -d "=" -f 2`
 
-#Takes the name of an app in lib/app
+# Takes the name of an app in lib/app and runs it
+# Creates a completely new environment for it
 run_app() {
-  bash $root/lib/app/$1 $root
+  app=$1
+  bash $ROOT/lib/app/$app $ROOT
 }
 
 mac_choose_what_to_do() {
@@ -26,6 +25,7 @@ help_message() {
 
 choose_what_to_do() {
   while true; do
+    hang
     echo "[A]lias Modifier"
     echo "[D]otfile Cloner"
     echo "[I]nstall Software"
@@ -38,8 +38,7 @@ choose_what_to_do() {
     read -p "Choose Command: " REPLY
 
     # lowercases and extracts first character
-    REPLY_FL=$(echo $REPLY | tr '[A-Z]' '[a-z]')
-    REPLY_FL=${REPLY_FL:0:1}
+    REPLY_FL=$(first $(lowercase $REPLY))
 
     if [[ "$REPLY_FL" == "a" ]]; then
       run_app alias_modder.sh
