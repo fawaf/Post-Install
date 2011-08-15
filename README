@@ -1,5 +1,5 @@
 Two easy steps!
-1: Make POST_INSTALL executable: chmod +x POST_INSTALL.sh
-2: Run it! ./POST_INSTALL.sh
+1: Make POST_INSTALL executable: chmod +x post_install.sh
+2: Run it! ./post_install.sh
 
 Enjoy!
