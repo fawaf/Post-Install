@@ -35,36 +35,48 @@ else
   rm ~/Downloads/node-index.html
 
   echo "Current Versions of Node.js:"
-  echo "\t${VSTABLE}\t\tBuild Date: ${VSMONTHW} ${VSDAYS}, ${VSYEAR}"
-  echo "\t${VUNSTABLE}\t\tBuild Date: ${VUMONTHW} ${VUDAYS}, ${VUYEAR}"
+  echo -e "\t${VSTABLE}\t\tBuild Date: ${VSMONTHW} ${VSDAYS}, ${VSYEAR}"
+  echo -e "\t${VUNSTABLE}\t\tBuild Date: ${VUMONTHW} ${VUDAYS}, ${VUYEAR}"
   echo ""
 
   VINSTALL=""
+  VVER=""
 
+  while true; do
   read -p "Choose which Node.js version you wish to install (stable (${VSTABLE}) = 1, unstable (${VUNSTABLE}) = 2): " VNODE
   if [ "$VNODE" = 1 ]; then
-    VINSTALL="${VSTABLES}"
+    VINSTALL="node-${VSTABLE}"
+    VVER="${VSTABLE}"
+    break
   elif [ "$VNODE" = 2 ]; then
-    VINSTALL="${VUNSTABLES}"
+    VINSTALL="${VUNSTABLE}/node-${VUNSTABLE}"
+    VVER="${VUNSTABLE}"
+    break
   else
+    echo ""
     echo "Invalid Choice!"
     echo ""
-    install_node
   fi
+  done
 
   echo "Installing Node.js..."
-  usr_local_permissions
-  wget http://nodejs.org/dist/node-${VINSTALL}.tar.gz -O ~/Downloads/node-${VINSTALL}.tar.gz
+  $root/lib/tools/usr_local_permissions.sh
+  
+  echo "DOWNLOADING FROM: http://nodejs.org/dist/${VINSTALL}.tar.gz"
+  echo "PUTTING IN: ~/Downloads/node-${VVER}.tar.gz"
+  read -p "DID IT WORK?" FISH
+  
+  wget http://nodejs.org/dist/${VINSTALL}.tar.gz -O ~/Downloads/node-${VVER}.tar.gz
   mkdir ~/Node/
-  tar -zxvf ~/Downloads/node-${VINSTALL}.tar.gz -C ~/Node/
-  rm ~/Downloads/node-${VINSTALL}.tar.gz
+  tar -xvzf ~/Downloads/node-${VVER}.tar.gz -C ~/Node/
+  rm ~/Downloads/node-${VVER}.tar.gz
 
   sudo apt-get -qqy install cmake curl
 
-  cd ~/Node/node-${VINSTALL}/
+  cd ~/Node/node-${VVER}/
   make -f Makefile.cmake -s
   make -f Makefile.cmake -s install
-  rm -rf ~/Node/node-${VINSTALL}/
+  rm -rf ~/Node/node-${VVER}/
   cd ~
 
   echo "Installing npm..."
