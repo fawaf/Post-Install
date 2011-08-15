@@ -1,3 +1,5 @@
+#!/bin/bash
+
 read -p "Currently Executing as User: \"${USER}\". Is this correct (y/n)? " CONFIRM
 echo ""
 
@@ -6,9 +8,9 @@ if [ "$CONFIRM" = n ]; then
 else
   sudo apt-get -qqy install g++ curl libssl-dev apache2-utils
 
-  wget -q http://nodejs.org/#download -O ~/Downloads/node-index.html
-  VALLSTABLE=`egrep -o "[[:digit:]]{0,9}[[:digit:]]{0,9}[[:digit:]]{0,9}[[:digit:]]{0,9}\.[[:digit:]]{0,9}[[:digit:]]{0,9}\.[[:digit:]]{0,9}[[:digit:]]{0,9} v[[:digit:]]{0,9}*\.[[:digit:]]{0,9}*\.[[:digit:]]{0,9}* \(stable\)" index.html`
-  VALLUNSTABLE=`egrep -o "[[:digit:]]{0,9}[[:digit:]]{0,9}[[:digit:]]{0,9}[[:digit:]]{0,9}\.[[:digit:]]{0,9}[[:digit:]]{0,9}\.[[:digit:]]{0,9}[[:digit:]]{0,9} v[[:digit:]]{0,9}*\.[[:digit:]]{0,9}*\.[[:digit:]]{0,9}* \(unstable\)" index.html`
+  wget http://nodejs.org/#download -O ~/Downloads/node-index.html
+  VALLSTABLE=`egrep -o "[[:digit:]]{0,9}[[:digit:]]{0,9}[[:digit:]]{0,9}[[:digit:]]{0,9}\.[[:digit:]]{0,9}[[:digit:]]{0,9}\.[[:digit:]]{0,9}[[:digit:]]{0,9} v[[:digit:]]{0,9}*\.[[:digit:]]{0,9}*\.[[:digit:]]{0,9}* \(stable\)" ~/Downloads/node-index.html`
+  VALLUNSTABLE=`egrep -o "[[:digit:]]{0,9}[[:digit:]]{0,9}[[:digit:]]{0,9}[[:digit:]]{0,9}\.[[:digit:]]{0,9}[[:digit:]]{0,9}\.[[:digit:]]{0,9}[[:digit:]]{0,9} v[[:digit:]]{0,9}*\.[[:digit:]]{0,9}*\.[[:digit:]]{0,9}* \(unstable\)" ~/Downloads/node-index.html`
 
   ## Date for Stable Version
   VSYEAR=`echo "${VALLSTABLE}"|cut -d " " -f 1|cut -d "." -f 1`
@@ -52,7 +54,7 @@ else
 
   echo "Installing Node.js..."
   usr_local_permissions
-  wget -q http://nodejs.org/dist/node-${VINSTALL}.tar.gz -O ~/Downloads/node-${VINSTALL}.tar.gz
+  wget http://nodejs.org/dist/node-${VINSTALL}.tar.gz -O ~/Downloads/node-${VINSTALL}.tar.gz
   mkdir ~/Node/
   tar -zxvf ~/Downloads/node-${VINSTALL}.tar.gz -C ~/Node/
   rm ~/Downloads/node-${VINSTALL}.tar.gz
