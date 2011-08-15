@@ -2,9 +2,10 @@
 # Kevin's crap
 source $1/lib/app/helper.sh $1
 
-echo "---------------------------"
+echo_separator_bar
 echo "Modify your aliases here!"
-echo "---------------------------"
+echo_separator_bar
+
 touch ~/.post-aliases
 while true; do
   echo "q = Quit"

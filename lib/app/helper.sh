@@ -12,19 +12,30 @@ sed_escape() {
 # Takes in a space separated list and allows
 # user to choose one. returns that choice
 choose_from_selection() {
-  echo "Enter Index Number of Selection"
-  echo "Possible Selections: "
+  choice=""
+  while [[ "$choice" == "" ]]; do
+    echo ""
+    echo "Enter Index Number of Selection; n to escape"
+    echo "Possible Selections: "
 
-  local i=0
-  for selection_type in $*; do
-    echo [$i]: $selection_type
-    local selectables[$i]=$selection_type
-    let i="$i+1"
+    declare -A selectables
+    selectables[n]=FAILURE && selectables[q]=FAILURE
+    local i=0
+    for selection_type in $*; do
+      echo [$i]: $selection_type
+      selectables[$i]=$selection_type
+      let i="$i+1"
+    done
+
+    read -p "> " REPLY
+    REPLY_FL=$(echo $REPLY | tr '[A-Z]' '[a-z]')
+    choice=${selectables[$REPLY_FL]}
   done
-
-  read -p "> " REPLY
-  choice=${selectables[$REPLY]}
   RETURN=$choice
+}
+
+echo_separator_bar() {
+  echo "-----------------------------------------"
 }
 
 determine_OS() {

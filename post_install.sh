@@ -3,10 +3,6 @@
 ## August 10, 2011
 ## Version 0.01
 
-echo "-----------------------------------------"
-echo "Welcome to the Trollingwood Manor Post Install Script!"
-echo "-----------------------------------------"
-echo ""
 
 root=$(pwd) # the root of the app. Pass into all other scripts
 source $root/lib/app/helper.sh $root
@@ -16,15 +12,19 @@ ureltemp=`egrep "DISTRIB_CODENAME=" /etc/lsb-release`
 urel=`echo "${ureltemp}"|cut -d "=" -f 2`
 
 #Takes the name of an app in lib/app
-run_app () {
+run_app() {
   bash $root/lib/app/$1 $root
 }
 
-mac_choose_what_to_do () {
+mac_choose_what_to_do() {
   run_app mac_post_install.sh
 }
 
-choose_what_to_do () {
+help_message() {
+  echo "Friendship is Magic!"
+}
+
+choose_what_to_do() {
   while true; do
     echo "[A]lias Modifier"
     echo "[D]otfile Cloner"
@@ -62,6 +62,11 @@ choose_what_to_do () {
     echo ""
   done
 }
+
+echo_separator_bar
+echo "Welcome to the Trollingwood Manor Post Install Script!"
+echo_separator_bar
+echo ""
 
 determine_OS
 

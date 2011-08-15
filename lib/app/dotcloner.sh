@@ -11,26 +11,30 @@ function replace_dotfile {
     echo "You said no. So This will not continue"
     return
   fi
+
   echo "Backing up $1 to $1.backup"
   $(cp -R ~/.$1 ~/.$1.backup)
   echo "Replacing $1 with $2"
   $(rm -rf ~/.$1)
   $(cp -R $2 ~/.$1)
 }
-function choose_dotfile {
-  echo ""
-  echo "Possible $1 files to read"
-  choose_from_selection $(ls $root/config/dotfiles/$1 | tr " " "\n")
-}
 
+# Searches through config/dotfiles for possible dotfile types
+# Then searches through the user's choice of those for the
+#   actual dotfiles. Then lets the user choose from those
+#   and replace his dotfile with that choice(and backs up the old)
 function find_dottypes() {
+  echo_separator_bar
   echo "available dotfile types"
   choose_from_selection $(ls $root/config/dotfiles)
+  if [[ "$RETURN" == "FAILURE" ]]; then return; fi
   local dottype=$RETURN
-  choose_dotfile $dottype
+
+  echo "Possible $1 files to read"
+  choose_from_selection $(ls $root/config/dotfiles/$dottype | tr " " "\n")
   local dotfile=$RETURN
   local dotfile_full=$root/config/dotfiles/$dottype/$dotfile
-  echo "dottype $dottype"
+
   echo "dotfile $root/config/dotfiles/$dottype/$dotfile"
   replace_dotfile $dottype $dotfile_full
 }
