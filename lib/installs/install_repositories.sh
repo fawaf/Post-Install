@@ -109,6 +109,15 @@ else
 	read -p "Install ${lt} (y/n)? " l
 fi
 
+mt="Firefox and Thunderbird Daily PPA"
+if [ -e "/etc/apt/sources.list.d/ubuntu-mozilla-daily-ppa-${urel}.list" ]; then
+	echo "[X] ${mt}"
+	l="n"
+else
+	echo "[ ] ${mt}"
+	read -p "Install ${mt} (y/n)? " m
+fi
+
 ##===================================================
 ## Special Repositories
 ##===================================================
@@ -215,6 +224,11 @@ fi
 ##pithos (lightweight pandora client) ppa
 if [[ "$l" == "y" ]]; then
 	sudo add-apt-repository ppa:kevin-mehall/pithos-daily
+fi
+
+##firefox and thunderbird daily ppa
+if [[ "$m" == "y" ]]; then
+	sudo add-apt-repository ppa:ubuntu-mozilla-daily/ppa
 fi
 
 
