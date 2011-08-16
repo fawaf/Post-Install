@@ -1,7 +1,7 @@
 #!/bin/bash
 ## Trolling Manor Post Install Script for Ubuntu (11.04) AND MACOSX!!!!!!
 
-ROOT=$(pwd) # the root of the app. Pass into all other scripts
+ROOT=$(pwd) # the root of the app. Pass into all other scripts.
 source $ROOT/lib/app/helper.sh $ROOT
 platform=''
 
@@ -20,7 +20,7 @@ mac_choose_what_to_do() {
 }
 
 help_message() {
-  echo "Friendship is Magic!"
+  echo "Friendship is Magic!" #whoever decided on this is a gentleman and a scholar.
 }
 
 choose_what_to_do() {

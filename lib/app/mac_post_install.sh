@@ -1,23 +1,16 @@
-# Kevin's crap
-# It's all crap for mac
-# I mean really... you have to install wget manually what is this the stone age!
+# Super cool Macintosh Post_Install script
+# Going to be modeled after the Ubuntu version...hopefully everything survives!
+
 source $1/lib/app/helper.sh $1
+MINOR_DIRECTORY=$ROOT/lib/macinstalls
 
-check_homebrew () {
-  if [ -d /usr/local/.git ]; then
-    return 0
-  fi
-  echo "You don't have Homebrew installed."
-  return 1
-}
+echo_separator_bar
+echo "Welcome to the Macintosh Installer App"
 
-install_wget () {
-  check_homebrew
-  if [ $* == 1 ]; then
-    return 1
-  fi
-  brew install wget
-}
+choose_from_selection $(ls $MINOR_DIRECTORY)
+if [[ "$RETURN" == "FAILURE"]]; then exit; fi
+selection=$RETURN
+run_script $selection
 
 install_homebrew () {
   if [ -d /usr/local/.git ]; then

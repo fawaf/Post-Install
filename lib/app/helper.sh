@@ -71,6 +71,15 @@ determine_OS() {
   fi
 }
 
+#this is important stuff for Mac! Makes sure the package manager is there
+check_homebrew () {
+	if [ -d /usr/local/.git ]; then
+	    return 0
+	  fi
+	  echo "You don't have Homebrew installed. You should do that first."
+	  return 1
+}
+
 determine_bitage() {
   if (uname -a | grep 'x86_64'); then
     RETURN="amd64"
