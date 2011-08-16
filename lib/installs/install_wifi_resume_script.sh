@@ -16,7 +16,7 @@ if [ -e "/usr/local/bin/wifi.png" ]; then
 	sudo rm /usr/local/bin/wifi.png
 fi
 
-sudo cp "${ROOT}/wifi-resume-script/wifi.png" /usr/local/bin/
+sudo cp "${ROOT}/config/wifi-resume-script/wifi.png" /usr/local/bin/
 
 if [ -e "/usr/share/applications/wifirestart.desktop" ]; then
 	sudo rm /usr/share/applications/wifirestart.desktop
