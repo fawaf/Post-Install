@@ -93,7 +93,11 @@ check_wget () {
 
 #checks to see if you have this app in the Applications folder. 0 means no, 1 means yes.
 check_app () {
-	
+	if [ -d /Applications/$1.app ]; then
+		HAVEAPP=1
+	else
+		HAVEAPP=0
+	fi
 }
 determine_bitage() {
   if (uname -a | grep 'x86_64'); then

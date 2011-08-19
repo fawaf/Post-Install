@@ -5,6 +5,7 @@ source $1/lib/app/helper.sh $1
 MINOR_DIRECTORY=$ROOT/lib/macinstalls
 HAVEHOMEBREW=""
 HAVEWGET=""
+HAVEAPP=""
 
 run_app() {
   app=$1
