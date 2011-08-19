@@ -1,9 +1,9 @@
 check_homebrew
 
 if [ "$HAVEHOMEBREW" == 1 ]; then
-	echo "You already have Homebrew, silly!"
+	echo "You already have Homebrew!"
 	return
 else 
-	echo "Lol ok"
+	echo "Installing Homebrew!"
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
 fi

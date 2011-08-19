@@ -77,7 +77,7 @@ check_homebrew () {
 	if [ -d /usr/local/.git ]; then
 	    HAVEHOMEBREW=1
 	else
-	  HAVEHOMEBREW=0
+		HAVEHOMEBREW=0
 	fi
 }
 

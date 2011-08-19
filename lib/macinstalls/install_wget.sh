@@ -1,7 +1,9 @@
 check_homebrew
 
-if [ $* == 1 ]; then
-	return 1
+if [ "$HAVEHOMEBREW" == 1 ]; then
+	brew install wget
+else
+	echo "You should install Homebrew first!"
 fi
 
-brew install wget
+

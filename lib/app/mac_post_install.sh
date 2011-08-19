@@ -11,15 +11,7 @@ run_app() {
 }
 
 echo_separator_bar
-echo "Welcome to the Macintosh Installer App"
-
-install_homebrew () {
-  if [ -d /usr/local/.git ]; then
-    echo "Homebrew is already installed"
-  else 
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
-  fi
-}
+echo "Welcome to the Macintosh Post-Install Script"
 
 update_homebrew () {
   #check_homebrew; if [ $* == 1 ]; then; return; fi;
