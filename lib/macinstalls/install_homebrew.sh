@@ -1,6 +1,9 @@
-CONTINUE = check_homebrew
+check_homebrew
 
-if (CONTINUE == 0); then
+if [ "$HAVEHOMEBREW" == 1 ]; then
+	echo "You already have Homebrew, silly!"
 	return
 else 
+	echo "Lol ok"
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
+fi

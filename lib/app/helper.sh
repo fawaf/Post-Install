@@ -28,7 +28,7 @@ choose_from_selection() {
     echo "Enter Index Number of Selection; n to escape"
     echo "Possible Selections: "
 
-    declare -A selectables
+    declare -a selectables
     selectables[n]=FAILURE && selectables[q]=FAILURE
     local i=0
     for selection_type in $*; do
@@ -72,12 +72,13 @@ determine_OS() {
 }
 
 #this is important stuff for Mac! Makes sure the package manager is there
+# 0 means you do not have Homebrew. 1 means you do.
 check_homebrew () {
 	if [ -d /usr/local/.git ]; then
-	    return 0
-	  fi
-	  echo "You don't have Homebrew installed. You should do that first."
-	  return 1
+	    HAVEHOMEBREW=1
+	else
+	  HAVEHOMEBREW=0
+	fi
 }
 
 determine_bitage() {
