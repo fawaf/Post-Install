@@ -4,6 +4,7 @@
 source $1/lib/app/helper.sh $1
 MINOR_DIRECTORY=$ROOT/lib/macinstalls
 HAVEHOMEBREW=""
+HAVEWGET=""
 
 run_app() {
   app=$1
@@ -23,38 +24,6 @@ install_node () {
   brew install node
   echo "Installing npm..."
   curl http://npmjs.org/install.sh | clean=yes sh
-}
-
-install_chrome () {
-  wget -q http://dl.google.com/chrome/mac/dev/GoogleChrome.dmg -O ~/Downloads/GoogleChrome.dmg
-  hdiutil mount -quiet ~/Downloads/GoogleChrome.dmg
-  cp -R "/Volumes/Google Chrome/Google Chrome.app" /Applications
-  hdiutil unmount -quiet "/Volumes/Google Chrome"
-  rm ~/Downloads/GoogleChrome.dmg
-}
-
-install_dropbox () {
-  wget -q http://cdn.dropbox.com/Dropbox%201.1.35.dmg -O ~/Downloads/Dropbox.dmg
-  hdiutil mount -quiet ~/Downloads/Dropbox.dmg
-  cp -R "/Volumes/Dropbox Install/Dropbox.app" /Applications
-  hdiutil unmount -quiet "/Volumes/Dropbox Install"
-  rm ~/Downloads/Dropbox.dmg
-}
-
-install_adium () {
-  wget -q http://download.adium.im/Adium_1.4.2.dmg -O ~/Downloads/Adium.dmg
-  hdiutil mount -quiet ~/Downloads/Adium.dmg
-  cp -R "/Volumes/Adium 1.4.2/Adium.app" /Applications
-  hdiutil unmount -quiet "/Volumes/Adium 1.4.2"
-  rm ~/Downloads/Adium.dmg
-}
-
-install_libreoffice () {
-  wget -q http://download.documentfoundation.org/libreoffice/stable/3.3.3/mac/x86/LibO_3.3.3_MacOS_x86_install_en-US.dmg -O ~/Downloads/LibreOffice.dmg
-  hdiutil mount -quiet ~/Downloads/LibreOffice.dmg
-  cp -R "/Volumes/LibreOffice 3.3/LibreOffice.app" /Applications
-  hdiutil unmount -quiet "/Volumes/LibreOffice 3.3"
-  rm ~/Downloads/LibreOffice.dmg
 }
 
 choose_what_to_do () {

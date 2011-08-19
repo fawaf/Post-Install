@@ -81,6 +81,20 @@ check_homebrew () {
 	fi
 }
 
+
+#0 means you do not have wget. 1 means you do
+check_wget () {
+	if which wget >/dev/null; then
+		HAVEWGET=1
+	else
+		HAVEWGET=0
+	fi
+}
+
+#checks to see if you have this app in the Applications folder. 0 means no, 1 means yes.
+check_app () {
+	
+}
 determine_bitage() {
   if (uname -a | grep 'x86_64'); then
     RETURN="amd64"
