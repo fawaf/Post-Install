@@ -62,10 +62,6 @@ else
   echo "Installing Node.js..."
   $ROOT/lib/tools/usr_local_permissions.sh
   
-  echo "DOWNLOADING FROM: http://nodejs.org/dist/${VINSTALL}.tar.gz"
-  echo "PUTTING IN: ~/Downloads/node-${VVER}.tar.gz"
-  read -p "DID IT WORK?" FISH
-  
   wget http://nodejs.org/dist/${VINSTALL}.tar.gz -O ~/Downloads/node-${VVER}.tar.gz
   mkdir ~/Node/
   tar -xvzf ~/Downloads/node-${VVER}.tar.gz -C ~/Node/
