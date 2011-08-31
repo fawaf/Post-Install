@@ -6,7 +6,7 @@ echo ""
 if [ "$CONFIRM" = n ]; then
   echo "Quiting..."
 else
-  sudo apt-get -qqy install g++ curl libssl-dev apache2-utils
+  sudo apt-get -qqy install g++ curl libssl-dev apache2-utils cmake curl
 
   wget http://nodejs.org/#download -O ~/Downloads/node-index.html
   VALLSTABLE=`egrep -o "[[:digit:]]{0,9}[[:digit:]]{0,9}[[:digit:]]{0,9}[[:digit:]]{0,9}\.[[:digit:]]{0,9}[[:digit:]]{0,9}\.[[:digit:]]{0,9}[[:digit:]]{0,9} v[[:digit:]]{0,9}*\.[[:digit:]]{0,9}*\.[[:digit:]]{0,9}* \(stable\)" ~/Downloads/node-index.html`
@@ -67,13 +67,12 @@ else
   tar -xvzf ~/Downloads/node-${VVER}.tar.gz -C ~/Node/
   rm ~/Downloads/node-${VVER}.tar.gz
 
-  sudo apt-get -qqy install cmake curl
-
   cd ~/Node/node-${VVER}/
-  make -f Makefile.cmake -s
-  make -f Makefile.cmake -s install
-  rm -rf ~/Node/node-${VVER}/
+  ./configure
+  make
+  make install
   cd ~
+  rm -rf ~/Node/node-${VVER}/
 
   echo "Installing npm..."
   curl http://npmjs.org/install.sh | clean=yes sh
