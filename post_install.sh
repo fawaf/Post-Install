@@ -1,12 +1,17 @@
 #!/bin/bash
 ## Trolling Manor Post Install Script for Ubuntu (11.04) AND MACOSX!!!!!!
 
-ROOT=$(pwd) # the root of the app. Pass into all other scripts
+ROOT=$(pwd) # the root of the app. Pass into all other scripts.
 source $ROOT/lib/app/helper.sh $ROOT
 platform=''
 
-ureltemp=`egrep "DISTRIB_CODENAME=" /etc/lsb-release`
-urel=`echo "${ureltemp}"|cut -d "=" -f 2`
+if [ -d "/etc/lsb-release/" ]; then
+	ureltemp=`egrep "DISTRIB_CODENAME=" /etc/lsb-release` #This only works on Ubuntu.
+	urel=`echo "${ureltemp}"|cut -d "=" -f 2`
+else #otherwise you're cool and have a Mac
+	ureltemp=""
+	urel=""
+fi
 
 # Takes the name of an app in lib/app and runs it
 # Creates a completely new environment for it
@@ -20,7 +25,7 @@ mac_choose_what_to_do() {
 }
 
 help_message() {
-  echo "Friendship is Magic!"
+  echo "Friendship is Magic!" #whoever decided on this is a gentleman and a scholar.
 }
 
 choose_what_to_do() {
@@ -70,9 +75,9 @@ echo ""
 determine_OS
 
 if [[ "$platform" == MACOSX ]]; then
-  mac_choose_what_to_do
+	mac_choose_what_to_do
 elif [[ "$platform" == Linux ]]; then
-  choose_what_to_do
+  	choose_what_to_do
 else
   echo "Sorry bud but your OS is a pile of shit"
 fi
