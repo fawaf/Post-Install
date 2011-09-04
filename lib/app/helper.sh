@@ -28,8 +28,8 @@ choose_from_selection() {
     echo "Enter Index Number of Selection; n to escape"
     echo "Possible Selections: "
 
-    declare -a selectables
-    selectables[n]=FAILURE && selectables[q]=FAILURE
+    declare -A selectables
+    selectables["n"]=FAILURE && selectables["q"]=FAILURE
     local i=0
     for selection_type in $*; do
       echo [$i]: $selection_type
