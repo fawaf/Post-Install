@@ -1,8 +1,10 @@
 # Downloads and Installs Truecrypt
 
-wget http://www.truecrypt.org/downloads -O ~/Downloads/truecrypt-index.html
+err=`wget http://www.truecrypt.org/downloads -O ~/Downloads/truecrypt-index.html`
 VSTABLE=`egrep -o "Latest Stable Version - .*</h1>" ~/Downloads/truecrypt-index.html`
 TVER=`echo "${VSTABLE}"|cut -d " " -f 5|cut -d "<" -f 1`
+
+rm ~/Downloads/truecrypt-index.html
 
 read -p "Install Truecrypt v${TVER} (y/n)? " CONFIRM
 echo ""
@@ -15,7 +17,10 @@ else
 	else
 	  VER="x86"
 	fi
-	wget -q http://www.truecrypt.org/download/truecrypt-${TVER}-linux-${VER}.tar.gz -O ~/Downloads/truecrypt-${TVER}-linux-${VER}.tar.gz
+	
+	mkdir ~/Downloads/Truecrypt
+	
+	wget http://www.truecrypt.org/download/truecrypt-${TVER}-linux-${VER}.tar.gz -O ~/Downloads/truecrypt-${TVER}-linux-${VER}.tar.gz
 	tar -zxvf ~/Downloads/truecrypt-${TVER}-linux-${VER}.tar.gz -C ~/Downloads/Truecrypt/
 	rm ~/Downloads/truecrypt-${TVER}-linux-${VER}.tar.gz
 	sudo ~/Downloads/Truecrypt/truecrypt-${TVER}-setup-${VER}
