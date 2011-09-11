@@ -74,30 +74,30 @@ determine_OS() {
 #this is important stuff for Mac! Makes sure the package manager is there
 # 0 means you do not have Homebrew. 1 means you do.
 check_homebrew () {
-	if [ -d /usr/local/.git ]; then
-	    HAVEHOMEBREW=1
-	else
-		HAVEHOMEBREW=0
-	fi
+  if [ -d /usr/local/.git ]; then
+      HAVEHOMEBREW=1
+  else
+    HAVEHOMEBREW=0
+  fi
 }
 
 
 #0 means you do not have wget. 1 means you do
 check_wget () {
-	if which wget >/dev/null; then
-		HAVEWGET=1
-	else
-		HAVEWGET=0
-	fi
+  if which wget >/dev/null; then
+    HAVEWGET=1
+  else
+    HAVEWGET=0
+  fi
 }
 
 #checks to see if you have this app in the Applications folder. 0 means no, 1 means yes.
 check_app () {
-	if [ -d /Applications/$1.app ]; then
-		HAVEAPP=1
-	else
-		HAVEAPP=0
-	fi
+  if [ -d /Applications/$1.app ]; then
+    HAVEAPP=1
+  else
+    HAVEAPP=0
+  fi
 }
 determine_bitage() {
   if (uname -a | grep 'x86_64'); then
