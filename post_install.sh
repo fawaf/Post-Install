@@ -34,6 +34,7 @@ choose_what_to_do() {
     echo "[A]lias Modifier"
     echo "[D]otfile Cloner"
     echo "[I]nstall Software"
+    echo "[S]imple installs"
     echo "[H]elp"
     echo "[M]ac = You are running a Mac"
     echo "[Q]uit or [Exit]"
@@ -51,6 +52,8 @@ choose_what_to_do() {
       run_app dotcloner.sh
     elif [[ "$REPLY_FL" == "i" ]]; then
       run_app installer.sh
+    elif [[ "$REPLY_FL" == "s" ]]; then
+      run_app simple.sh
     elif [[ "$REPLY_FL" == 'h' ]]; then
       help_message
     elif [[ "$REPLY_FL" == "m" ]]; then
