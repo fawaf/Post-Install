@@ -1,3 +1,4 @@
+#!/bin/bash
 # Install google music manager
 
 determine_bitage

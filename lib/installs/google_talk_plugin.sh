@@ -1,3 +1,4 @@
+#!/bin/bash
 ## Install google-talk plugin
 
 determine_bitage

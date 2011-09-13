@@ -1,3 +1,4 @@
+#!/bin/bash
 ##  ack-grep
 #
 # Replacement for grep. More powerful searching tool, especially for

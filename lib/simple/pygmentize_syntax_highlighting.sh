@@ -1,3 +1,4 @@
+#!/bin/bash
 # It's kind of like `cat`, but with syntax highlighting
 # consider example_code.rb, run
 # pyg example_code.rb

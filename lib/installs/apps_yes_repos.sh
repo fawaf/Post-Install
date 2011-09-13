@@ -1,3 +1,4 @@
+#!/bin/bash
 # Installs all of the applications INCLUDING the ones accessable from the repositories installed before
 qq_update
 

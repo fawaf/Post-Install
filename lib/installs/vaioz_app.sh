@@ -1,3 +1,4 @@
+#!/bin/bash
 # Installs the Vaio Z Script
 # http://global-social.net/tiki-view_blog.php?blogId=3
 echo "Installing Vaio Z App..."

@@ -1,3 +1,4 @@
+#!/bin/bash
 # Downloads and Installs Truecrypt
 
 err=`wget http://www.truecrypt.org/downloads -O ~/Downloads/truecrypt-index.html`

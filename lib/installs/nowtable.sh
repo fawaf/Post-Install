@@ -1,3 +1,4 @@
+#!/bin/bash
 cd ~/Documents/
 git clone git@github.com:khwang/Nowtable.git
 cd ~/Documents/Nowtable/

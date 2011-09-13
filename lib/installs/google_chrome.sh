@@ -1,3 +1,4 @@
+#!/bin/bash
 # Install google chrome
 
 determine_bitage

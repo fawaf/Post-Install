@@ -1,3 +1,4 @@
+#!/bin/bash
 # Downloads and Installs Minecraft with an Entry in the Games applications folder
 
 sudo mkdir /usr/local/bin/minecraft/

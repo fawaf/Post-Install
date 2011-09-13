@@ -1,4 +1,6 @@
 #!/bin/bash
+# http://nodejs.org/
+# Installs Node.js
 
 read -p "Currently Executing as User: \"${USER}\". Is this correct (y/n)? " CONFIRM
 echo ""

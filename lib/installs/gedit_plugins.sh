@@ -1,4 +1,6 @@
+#!/bin/bash
 # Downloads and Installs Gedit Plugins
+# BROKEN
 
 # Smart Highlighting
 VERSH="2.0.0"

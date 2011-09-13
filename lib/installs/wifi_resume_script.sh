@@ -1,3 +1,4 @@
+#!/bin/bash
 # Stub description
 
 echo "Installing WiFi Resume Script..."

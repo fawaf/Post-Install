@@ -1,3 +1,4 @@
+#!/bin/bash
 # Install Hulu Desktop
 determine_bitage
 VER=$RETURN

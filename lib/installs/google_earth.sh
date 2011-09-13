@@ -1,3 +1,4 @@
+#!/bin/bash
 # Install google earth
 
 determine_bitage

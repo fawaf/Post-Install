@@ -1,3 +1,4 @@
+#!/bin/bash
 ureltemp=`egrep "DISTRIB_CODENAME=" /etc/lsb-release`
 urel=`echo "${ureltemp}"|cut -d "=" -f 2`
 

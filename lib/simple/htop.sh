@@ -1,3 +1,4 @@
+#!/bin/bash
 ## htop
 #
 # Replacement for top -- Lets you interact with the processes(like
