@@ -15,8 +15,10 @@ newest_ssh_pub=`find ~ -type f -wholename $(ls -t ~/.ssh/*.pub | head -1)`
 
 echo "Newest SSH Key: ${newest_ssh_pub}"
 read -p "Copy Newest Public SSH Key to Clipboard (Y/n)? " sshcopy
-if [[ "$sshcopy" == "y" || "$sshcopy" == "" ]]; then
-	echo "SSH Key:"
+if [[ "$sshcopy" == "n" || "$sshcopy" == "N" ]]; then
+	echo "not copying ssh key to clipboard..."
+else
+    echo "SSH Key:"
 	echo "---------------------------"
 	cat ${newest_ssh_pub}
 	echo "---------------------------"
