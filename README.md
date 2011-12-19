@@ -1,6 +1,6 @@
 # Post Install
-Two easy steps!
-1: Run it!
+One easy step!
+Run it!
 
     ./post_install.sh
 
