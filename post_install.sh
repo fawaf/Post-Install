@@ -37,7 +37,7 @@ choose_what_to_do() {
     echo "[S]imple installs"
     echo "[H]elp"
     echo "[M]ac = You are running a Mac"
-    echo "[Q]uit or [Exit]"
+    echo "[Q]uit or [exit]"
     echo "[T]ools that aren't quite Installs. Like Miscellaneous"
     echo ""
 
