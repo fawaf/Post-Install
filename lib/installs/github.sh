@@ -5,8 +5,10 @@ sudo apt-get -qqy install git xclip
 
 git config --global color.branch auto
 git config --global color.diff auto
-git config --global color.interactive auto
+git config --global color.interactive autoj
 git config --global color.status auto
+
+git config color.ui true
 
 read -p "Github User Name: " USERNAME
 read -p "Github Email    : " EMAIL

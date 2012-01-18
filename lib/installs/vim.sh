@@ -3,4 +3,4 @@
 # https://github.com/carlhuda/janus
 
 sudo apt-get install git curl rake ruby-dev exuberant-ctags vim-gnome
-curl https://raw.github.com/carlhuda/janus/master/bootstrap.sh -o - | sh
+curl -Lo- http://bit.ly/janus-bootstrap | bash
