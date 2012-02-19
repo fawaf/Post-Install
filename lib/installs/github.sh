@@ -1,14 +1,12 @@
 #!/bin/bash
 ## install git and configure
 
-sudo apt-get -qqy install git xclip
+echo "Adding Repository..."
+sudo apt-add-repository -y ppa:git-core/ppa &> /dev/null
+sudo apt-get -qqy update &> /dev/null
 
-git config --global color.branch auto
-git config --global color.diff auto
-git config --global color.interactive autoj
-git config --global color.status auto
 
-git config color.ui true
+sudo apt-get -qqy install git xclip &> /dev/null
 
 read -p "Github User Name: " USERNAME
 read -p "Github Email    : " EMAIL

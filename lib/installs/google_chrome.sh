@@ -24,8 +24,10 @@ while true; do
   fi
 done
 
+echo "Installing Dependencies..."
+sudo apt-get -qqy install libxss1 &> /dev/null
+echo "Downloading Google Chrome..."
+wget http://dl.google.com/linux/direct/google-chrome-${VC}_current_${VER}.deb -O ~/Downloads/google-chrome-${VC}_current_${VER}.deb &> /dev/null
 echo "Installing Google Chrome..."
-sudo apt-get -qqy install libnspr4-0d libcurl3 libxss1
-wget http://dl.google.com/linux/direct/google-chrome-${VC}_current_${VER}.deb -O ~/Downloads/google-chrome-${VC}_current_${VER}.deb
-sudo dpkg -i ~/Downloads/google-chrome-${VC}_current_${VER}.deb
-rm ~/Downloads/google-chrome-${VC}_current_${VER}.deb
+sudo dpkg -i ~/Downloads/google-chrome-${VC}_current_${VER}.deb &> /dev/null
+rm ~/Downloads/google-chrome-${VC}_current_${VER}.deb &> /dev/null
