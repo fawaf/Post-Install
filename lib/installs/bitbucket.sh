@@ -1,29 +1,21 @@
 #!/bin/bash
-## install git and configure
+## install mercurial and configure
 
 echo "Adding Repository..."
-sudo apt-add-repository -y ppa:git-core/ppa &> /dev/null
+sudo apt-add-repository -y ppa:mercurial-ppa/releases &> /dev/null
 sudo apt-get -qq update &> /dev/null
-
--git config --global color.branch auto
--git config --global color.diff auto
--git config --global color.interactive autoj
--git config --global color.status auto
-
--git config color.ui true
 
 sudo apt-get -qqy install git xclip &> /dev/null
 
-read -p "Github User Name: " USERNAME
-read -p "Github Email    : " EMAIL
+read -p "Bitbucket User Name: " USERNAME
+read -p "Bitbucket Email    : " EMAIL
 
-git config --global user.name $USERNAME
-git config --global user.email $EMAIL
+echo -e "[ui]\nusername = ${USERNAME} <${EMAIL}>" | sudo tee ~/.hgrc
 
 newest_ssh_pub=`find ~ -type f -wholename $(ls -t ~/.ssh/*.pub | head -1)`
 xclip -in -selection c ${newest_ssh_pub}
 
-echo "Proceed to https://github.com/account/ssh and add your ssh key to your account."
+echo "Proceed to https://bitbucket.org/account/ssh-keys/ and add your ssh key to your account."
 echo "This is your ssh key, and it is now in your clipboard"
 
 echo "SSH Key:"
