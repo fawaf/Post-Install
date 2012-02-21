@@ -25,7 +25,7 @@ rm -rf ~/autojump/
 
 if grep -Fxq "source /etc/profile" ~/.bashrc
 then
-	echo "source /etc/profile" >> ~/.bashrc
+	echo "\"source /etc/profile\" already in ~\/.bashrc!"
 else
-    echo "\"source /etc/profile\" already in ~\/.bashrc!"
+	echo "source /etc/profile" >> ~/.bashrc
 fi
