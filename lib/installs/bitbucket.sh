@@ -14,6 +14,14 @@ read -p "Bitbucket Email    : " EMAIL
 
 echo -e "[ui]\nusername = ${USERNAME} <${EMAIL}>" | sudo tee ~/.hgrc &> $logfile
 
+if [ -e ~/.ssh/*.pub ]
+then
+	echo "SSH key already exists"
+else
+	echo "No SSH key found, generating new one"
+	$ROOT/lib/tools/generate_ssh_key.sh
+fi
+
 newest_ssh_pub=`find ~ -type f -wholename $(ls -t ~/.ssh/*.pub | head -1)` &> $logfile
 xclip -in -selection c ${newest_ssh_pub} &> $logfile
 
