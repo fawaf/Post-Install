@@ -2,7 +2,7 @@
 # http://nodejs.org/
 # Installs Node.js
 
-$logfile="/dev/null"
+$logfile=/dev/null
 
 read -p "Currently Executing as User: \"${USER}\". Is this correct (y/n)? " CONFIRM
 echo ""

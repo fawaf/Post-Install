@@ -1,6 +1,8 @@
 #!/bin/bash
 # Install google chrome
 
+$logfile=/dev/null
+
 determine_bitage
 VER=$RETURN
 
@@ -25,9 +27,9 @@ while true; do
 done
 
 echo "Installing Dependencies..."
-sudo apt-get -qqy install libxss1 &> /dev/null
+sudo apt-get -qqy install libxss1 &> $logfile
 echo "Downloading Google Chrome..."
-wget http://dl.google.com/linux/direct/google-chrome-${VC}_current_${VER}.deb -O ~/Downloads/google-chrome-${VC}_current_${VER}.deb &> /dev/null
+wget http://dl.google.com/linux/direct/google-chrome-${VC}_current_${VER}.deb -O ~/Downloads/google-chrome-${VC}_current_${VER}.deb &> $logfile
 echo "Installing Google Chrome..."
-sudo dpkg -i ~/Downloads/google-chrome-${VC}_current_${VER}.deb &> /dev/null
-rm ~/Downloads/google-chrome-${VC}_current_${VER}.deb &> /dev/null
+sudo dpkg -i ~/Downloads/google-chrome-${VC}_current_${VER}.deb &> $logfile
+rm ~/Downloads/google-chrome-${VC}_current_${VER}.deb &> $logfile

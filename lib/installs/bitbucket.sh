@@ -1,19 +1,21 @@
 #!/bin/bash
 ## install mercurial and configure
 
-echo "Adding Repository..."
-sudo apt-add-repository -y ppa:mercurial-ppa/releases &> /dev/null
-sudo apt-get -qq update &> /dev/null
+logfile=/dev/null
 
-sudo apt-get -qqy install git xclip &> /dev/null
+echo "Adding Repository..."
+sudo apt-add-repository -y ppa:mercurial-ppa/releases &> $logfile
+sudo apt-get -qq update &> $logfile
+
+sudo apt-get -qqy install git xclip &> $logfile
 
 read -p "Bitbucket User Name: " USERNAME
 read -p "Bitbucket Email    : " EMAIL
 
-echo -e "[ui]\nusername = ${USERNAME} <${EMAIL}>" | sudo tee ~/.hgrc
+echo -e "[ui]\nusername = ${USERNAME} <${EMAIL}>" | sudo tee ~/.hgrc &> $logfile
 
-newest_ssh_pub=`find ~ -type f -wholename $(ls -t ~/.ssh/*.pub | head -1)`
-xclip -in -selection c ${newest_ssh_pub}
+newest_ssh_pub=`find ~ -type f -wholename $(ls -t ~/.ssh/*.pub | head -1)` &> $logfile
+xclip -in -selection c ${newest_ssh_pub} &> $logfile
 
 echo "Proceed to https://bitbucket.org/account/ssh-keys/ and add your ssh key to your account."
 echo "This is your ssh key, and it is now in your clipboard"
