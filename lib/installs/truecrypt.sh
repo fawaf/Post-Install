@@ -1,7 +1,7 @@
 #!/bin/bash
 # Downloads and Installs Truecrypt
 
-$logfile=/dev/null
+logfile=/dev/null
 
 err=`wget http://www.truecrypt.org/downloads -O ~/Downloads/truecrypt-index.html` &> $logfile
 VSTABLE=`egrep -o "Latest Stable Version - .*</h1>" ~/Downloads/truecrypt-index.html` &> $logfile

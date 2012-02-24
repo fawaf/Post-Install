@@ -1,7 +1,7 @@
 #!/bin/bash
 # Install spotify
 
-$logfile=/dev/null
+logfile=/dev/null
 
 echo "Installing Repository..."
 sudo apt-add-repository -y "deb http://repository.spotify.com stable non-free" &> $logfile

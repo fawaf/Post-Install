@@ -1,7 +1,7 @@
 #!/bin/bash
 # Install autojump
 
-$logfile=/dev/null
+logfile=/dev/null
 
 echo "Installing Dependencies..."
 sudo apt-get -qqy install python2.7 &> $logfile

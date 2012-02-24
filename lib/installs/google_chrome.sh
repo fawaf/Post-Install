@@ -1,7 +1,7 @@
 #!/bin/bash
 # Install google chrome
 
-$logfile=/dev/null
+logfile=/dev/null
 
 determine_bitage
 VER=$RETURN
