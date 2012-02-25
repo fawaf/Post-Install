@@ -1,4 +1,4 @@
-### Post Install
+# Post Install
 One easy step!
 
 ##Running on Ubuntu
@@ -11,6 +11,6 @@ One easy step!
 
 ##Running on Windows
 
-No.
+	No.
 
 Enjoy!

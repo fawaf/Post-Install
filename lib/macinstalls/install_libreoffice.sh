@@ -1,7 +1,6 @@
 check_homebrew
 check_wget
-check_app "LibreOffice 3.3"
-#todo: Have it install the latest version always.
+check_app "LibreOffice"
 
 #wget http://www.dropbox.com/downloading?os=lnx -O ~/Downloads/dropbox-index.html
 #VALLSTABLE=`egrep -o "nautilus-dropbox_[[:digit:]]{0,9}*\.[[:digit:]]{0,9}*\.[[:digit:]]{0,9}*_${VER}\.deb" ~/Downloads/dropbox-index.html`
