@@ -1,6 +1,6 @@
 check_homebrew
 check_wget
-check_app "LibreOffice"
+check_app "LibreOfficezzz"
 
 #wget http://www.dropbox.com/downloading?os=lnx -O ~/Downloads/dropbox-index.html
 #VALLSTABLE=`egrep -o "nautilus-dropbox_[[:digit:]]{0,9}*\.[[:digit:]]{0,9}*\.[[:digit:]]{0,9}*_${VER}\.deb" ~/Downloads/dropbox-index.html`
@@ -16,8 +16,8 @@ if [ "$HAVEHOMEBREW" == 1 ]; then
 			echo ${VALLSTABLE}
 			wget http://download.documentfoundation.org/libreoffice/stable/${VALLSTABLE}/mac/x86/LibO_${VALLSTABLE}_MacOS_x86_install_en-US.dmg -O ~/Downloads/LibreOffice.dmg
 			hdiutil mount -quiet ~/Downloads/LibreOffice.dmg
-			cp -R "/Volumes/LibreOffice 3.3/LibreOffice.app" /Applications
-			hdiutil unmount -quiet "/Volumes/LibreOffice 3.3"
+			cp -R "/Volumes/LibreOffice/LibreOffice.app" /Applications
+			hdiutil unmount -quiet "/Volumes/LibreOffice"
 			rm ~/Downloads/LibreOffice.dmg
 			rm ~/Downloads/libreoffice-index.html
 		else 
