@@ -7,7 +7,7 @@ echo "Adding Repository..."
 sudo apt-add-repository -y ppa:mercurial-ppa/releases &> $logfile
 sudo apt-get -qq update &> $logfile
 
-sudo apt-get -qqy install git xclip &> $logfile
+sudo apt-get -qqy install mercurial xclip &> $logfile
 
 read -p "Bitbucket User Name: " USERNAME
 read -p "Bitbucket Email    : " EMAIL
