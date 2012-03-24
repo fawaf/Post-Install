@@ -1,6 +1,6 @@
 check_homebrew
 check_wget
-check_app Adium
+check_app "Adium"
 
 #Todo: Have it install the latest version.
 if [ "$HAVEHOMEBREW" == 1 ]; then
