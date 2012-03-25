@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 #!/bin/bash
 # Install fu
+
+# https://github.com/samirahmed/fu
+# A simple commandline utility for querying commandlinefu.com
+#
+# CommandlineFu.com is an awesome website written by David Winterbottom
+# It has a collection of neat commandline one liners for the unix shell
 
 logfile=/dev/null
 
@@ -11,7 +18,7 @@ mkdir ~/fu/ &> $logfile
 unzip -o ~/Downloads/fu-installer.zip -d ~/fu/ &> $logfile
 rm ~/Downloads/fu-installer.zip &> $logfile
 
-cd ~/fu/ &> $logfile
+pushd ~/fu/ &> $logfile
 sudo make install &> $logfile
-cd ~ &> $logfile
+popd &> $logfile
 rm -rf ~/fu/ &> $logfile

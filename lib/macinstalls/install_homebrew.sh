@@ -5,5 +5,5 @@ if [ "$HAVEHOMEBREW" == 1 ]; then
 	return
 else 
 	echo "Installing Homebrew!"
-	/usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)"
+	/usr/bin/ruby -e "$(/usr/bin/curl -fksSL https://raw.github.com/mxcl/homebrew/master/Library/Contributions/install_homebrew.rb)"
 fi
