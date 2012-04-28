@@ -20,3 +20,7 @@ else
 	echo "Downloading and Installing Sublime Text 2 Beta..."
 	sudo apt-get -qqy install sublime-text-2-beta &> $logfile
 fi
+
+echo "Installing Sublime Package Control..."
+wget "http://sublime.wbond.net/Package%20Control.sublime-package" -O ~/"Downloads/Package Control.sublime-package" &> $logfile
+mv ~/"Downloads/Package Control.sublime-package" ~/".config/sublime-text-2/Installed Packages" &> $logfile
