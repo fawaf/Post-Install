@@ -2,18 +2,18 @@
 ## install git and configure
 
 echo "Adding Repository..."
-sudo apt-add-repository -y ppa:git-core/ppa >> $logfile
-sudo apt-get -qq update >> $logfile
+sudo apt-add-repository -y ppa:git-core/ppa &>> $logfile
+sudo apt-get -qq update &>> $logfile
 
-git config color.ui true >> $logfile
+git config color.ui true &>> $logfile
 
-sudo apt-get -qqy install git xclip >> $logfile
+sudo apt-get -qqy install git xclip &>> $logfile
 
 read -p "Github User Name: " USERNAME
 read -p "Github Email    : " EMAIL
 
-git config --global user.name $USERNAME >> $logfile
-git config --global user.email $EMAIL >> $logfile
+git config --global user.name $USERNAME &>> $logfile
+git config --global user.email $EMAIL &>> $logfile
 
 if [ -e ~/.ssh/*.pub ]
 then
@@ -23,8 +23,8 @@ else
 	$ROOT/lib/tools/generate_ssh_key.sh
 fi
 
-newest_ssh_pub=`find ~ -type f -wholename $(ls -t ~/.ssh/*.pub | head -1)` >> $logfile
-xclip -in -selection c ${newest_ssh_pub} >> $logfile
+newest_ssh_pub=`find ~ -type f -wholename $(ls -t ~/.ssh/*.pub | head -1)` &>> $logfile
+xclip -in -selection c ${newest_ssh_pub} &>> $logfile
 
 echo "Proceed to https://github.com/account/ssh and add your ssh key to your account."
 echo "This is your ssh key, and it is now in your clipboard"

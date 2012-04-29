@@ -25,9 +25,9 @@ while true; do
 done
 
 echo "Installing Dependencies..."
-sudo apt-get -qqy install libxss1 >> $logfile
+sudo apt-get -qqy install libxss1 &>> $logfile
 echo "Downloading Google Chrome..."
-wget http://dl.google.com/linux/direct/google-chrome-${VC}_current_${VER}.deb -O ~/Downloads/google-chrome-${VC}_current_${VER}.deb >> $logfile
+wget http://dl.google.com/linux/direct/google-chrome-${VC}_current_${VER}.deb -O ~/Downloads/google-chrome-${VC}_current_${VER}.deb &>> $logfile
 echo "Installing Google Chrome..."
-sudo dpkg -i ~/Downloads/google-chrome-${VC}_current_${VER}.deb >> $logfile
-rm ~/Downloads/google-chrome-${VC}_current_${VER}.deb >> $logfile
+sudo dpkg -i ~/Downloads/google-chrome-${VC}_current_${VER}.deb &>> $logfile
+rm ~/Downloads/google-chrome-${VC}_current_${VER}.deb &>> $logfile
