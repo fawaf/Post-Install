@@ -6,7 +6,7 @@
 #
 
 
-sudo apt-get install curl git &> /dev/null
+sudo apt-get install curl git >> $logfile
 bash < <(curl -s https://rvm.beginrescueend.com/install/rvm)
 echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function' >> ~/.bashrc
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"

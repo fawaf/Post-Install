@@ -4,6 +4,7 @@
 
 # This is kind of important because ROOT will be set in all scripts the source helper.sh
 ROOT=$1
+logfile=$2
 
 sed_escape() {
   echo $1| sed -e 's/\(\.\|\/\|\*\|\[\|\]\|\\\)/\\&/g'
@@ -58,7 +59,7 @@ echo_separator_bar() {
 
 run_script() {
   selection=$1
-  source $MINOR_DIRECTORY/$selection $ROOT
+  source $MINOR_DIRECTORY/$selection $ROOT $logfile
 }
 
 determine_OS() {

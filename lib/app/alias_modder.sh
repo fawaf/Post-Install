@@ -1,6 +1,6 @@
 # alias_modder.sh
 # Kevin's crap
-source $1/lib/app/helper.sh $1
+source $1/lib/app/helper.sh $1 $2
 
 echo_separator_bar
 echo "Modify your aliases here!"

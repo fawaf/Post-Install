@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/bin/bash
 # Install fu
 
@@ -7,8 +6,6 @@
 #
 # CommandlineFu.com is an awesome website written by David Winterbottom
 # It has a collection of neat commandline one liners for the unix shell
-
-logfile=/dev/null
 
 echo "Installing Dependencies..."
 sudo apt-get -qqy install python2.7 make &> $logfile

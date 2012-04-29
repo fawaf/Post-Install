@@ -2,7 +2,8 @@
 ## Trolling Manor Post Install Script for Ubuntu (11.04) AND MACOSX!!!!!!
 
 ROOT=$(pwd) # the root of the app. Pass into all other scripts.
-source $ROOT/lib/app/helper.sh $ROOT
+logfile=$ROOT/logfile.txt
+source $ROOT/lib/app/helper.sh $ROOT $logfile
 platform=''
 
 if [ -d "/etc/lsb-release/" ]; then
@@ -17,7 +18,7 @@ fi
 # Creates a completely new environment for it
 run_app() {
   app=$1
-  bash $ROOT/lib/app/$app $ROOT
+  bash $ROOT/lib/app/$app $ROOT $logfile
 }
 
 mac_choose_what_to_do() {

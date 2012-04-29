@@ -1,5 +1,5 @@
 # globs through the dotfile directory for available dotfiles to clone
-source $1/lib/app/helper.sh $1
+source $1/lib/app/helper.sh $1 $2
 MINOR_DIRECTORY=$ROOT/config/dotfiles
 
 # $1 is the type of dotfile

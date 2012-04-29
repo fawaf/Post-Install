@@ -1,7 +1,7 @@
 # Super cool Macintosh Post_Install script
 # Going to be modeled after the Ubuntu version...hopefully everything survives!
 
-source $1/lib/app/helper.sh $1
+source $1/lib/app/helper.sh $1 $2
 MINOR_DIRECTORY=$ROOT/lib/macinstalls
 HAVEHOMEBREW=""
 HAVEWGET=""
@@ -9,7 +9,7 @@ HAVEAPP=""
 
 run_app() {
   app=$1
-  bash $ROOT/lib/app/$app $ROOT
+  bash $ROOT/lib/app/$app $ROOT $logfile
 }
 
 echo_separator_bar

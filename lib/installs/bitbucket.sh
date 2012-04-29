@@ -1,18 +1,16 @@
 #!/bin/bash
 ## install mercurial and configure
 
-logfile=/dev/null
-
 echo "Adding Repository..."
-sudo apt-add-repository -y ppa:mercurial-ppa/releases &> $logfile
-sudo apt-get -qq update &> $logfile
+sudo apt-add-repository -y ppa:mercurial-ppa/releases >> $logfile
+sudo apt-get -qq update >> $logfile
 
-sudo apt-get -qqy install mercurial xclip &> $logfile
+sudo apt-get -qqy install mercurial xclip >> $logfile
 
 read -p "Bitbucket User Name: " USERNAME
 read -p "Bitbucket Email    : " EMAIL
 
-echo -e "[ui]\nusername = ${USERNAME} <${EMAIL}>" | sudo tee ~/.hgrc &> $logfile
+echo -e "[ui]\nusername = ${USERNAME} <${EMAIL}>" | sudo tee ~/.hgrc >> $logfile
 
 if [ -e ~/.ssh/*.pub ]
 then
@@ -22,8 +20,8 @@ else
 	$ROOT/lib/tools/generate_ssh_key.sh
 fi
 
-newest_ssh_pub=`find ~ -type f -wholename $(ls -t ~/.ssh/*.pub | head -1)` &> $logfile
-xclip -in -selection c ${newest_ssh_pub} &> $logfile
+newest_ssh_pub=`find ~ -type f -wholename $(ls -t ~/.ssh/*.pub | head -1)` >> $logfile
+xclip -in -selection c ${newest_ssh_pub} >> $logfile
 
 echo "Proceed to https://bitbucket.org/account/ssh-keys/ and add your ssh key to your account."
 echo "This is your ssh key, and it is now in your clipboard"

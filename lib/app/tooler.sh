@@ -1,4 +1,4 @@
-source $1/lib/app/helper.sh $1
+source $1/lib/app/helper.sh $1 $2
 MINOR_DIRECTORY=$ROOT/lib/tools
 
 echo_separator_bar
