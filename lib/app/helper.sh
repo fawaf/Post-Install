@@ -213,8 +213,14 @@ get_sudo () {
 execute_command () {
     local actionstring="$1" diemsg="`mktemp`" tmpjob="`mktemp`"
     echo -e "${actionstring} ..."
-    eval $actionstring >$diemsg 2>&1 &
-        progressindicator $tmpjob
+    sudo -v
+    str="sudo sleep 2; echo \"butts imout\""
+    echo "Gonna sleep here 2 seconds. No ask for sudo"
+    eval "$str"
+    echo "Gonna sleep here 2 seconds. Will ask for sudo"
+    eval "$str" > $diemsg 2>&1 &
+    progressindicator $tmpjob
+    # sudo echo "poop" > $diemsg 2>&1 &
     grep -qs "Exit[[:space:]][[:digit:]]" "$tmpjob" && {
         echo " failed!"
         die "$me: error running \"${actionstring}\": " "$diemsg"
