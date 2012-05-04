@@ -1,6 +1,10 @@
 #!/bin/bash
 # Install autojump
 
+execute_command "sudo echo \"fish\"" sudo
+
+read -p "Currently Executing as User: \"${USER}\". Is this correct (y/n)? " CONFIRM
+
 echo "Installing Dependencies..."
 sudo apt-get -y install python2.7 &>> $logfile
 

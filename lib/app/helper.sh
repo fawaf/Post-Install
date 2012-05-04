@@ -149,3 +149,79 @@ qq_upgrade() {
   qq_update
   sudo apt-get -qqy upgrade
 }
+
+anykey () {
+    read -p "Press ENTER to continue " dummy
+    return 0
+}
+
+abort () {
+    $xterm && anykey
+    exit $1
+}
+
+die () {
+    echo "$1"
+    cat "$2" && remove "$2" false
+    echo
+    abort 1
+}
+
+remove () {
+    [ -L "$1" ] && rm -f "$1" && ${2:-false} && $3 $4 "     - $1 - link successfully removed"
+    [ -f "$1" ] && rm -f "$1" && ${2:-false} && $3 $4 "     - $1 - file successfully removed"
+    [ -d "$1" ] && rm -fr "$1" && ${2:-false} && $3 $4 "     - $1 - directory successfully removed"
+    return 0
+}
+
+run_progressindicator () {
+    local runloop=true interval='.05'
+    trap 'runloop=false' SIGTRAP
+    while $runloop; do
+        echo -en "${b}-${n}" && sleep $interval
+        echo -en "\b/" && sleep $interval
+        echo -en "\b${b}-${n}" && sleep $interval
+        local multiplicator=4
+        until [ $multiplicator -le 0 ]; do
+            echo -en "\b\\" && sleep $interval
+            echo -en "\b|" && sleep $interval
+            echo -en "\b/" && sleep $interval
+            echo -en "\b${b}-${n}" && sleep $interval
+            let multiplicator--
+        done
+        echo -en "\b." && sleep $interval
+    done
+}
+ 
+progressindicator () {
+    local tmpjob="$1"
+    run_progressindicator &
+    progressindicator_id=$!
+    jobs >$tmpjob
+    until grep -qs 'eval $actionstring[[:space:]]*>[[:space:]]*["]*$diemsg.*[^&]$' $tmpjob; do
+        sleep 1
+        jobs >$tmpjob
+    done
+    /bin/kill -TRAP $progressindicator_id
+    while ps -p $progressindicator_id >/dev/null 2>&1; do sleep .1 ; done
+}
+
+get_sudo () {
+    sudo -v
+}
+
+execute_command () {
+    local actionstring="$1" diemsg="`mktemp`" tmpjob="`mktemp`"
+    echo -e "${actionstring} ..."
+    if [ "$2" = sudo ]; then
+        get_sudo
+    fi
+    eval $actionstring >$diemsg 2>&1 &
+        progressindicator $tmpjob
+    grep -qs "Exit[[:space:]][[:digit:]]" "$tmpjob" && {
+        echo " failed!"
+        die "$me: error running \"${actionstring}\": " "$diemsg"
+    } || echo " finished"
+    remove "$tmpjob"
+    remove "$diemsg"
+}
