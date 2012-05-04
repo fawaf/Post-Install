@@ -213,9 +213,6 @@ get_sudo () {
 execute_command () {
     local actionstring="$1" diemsg="`mktemp`" tmpjob="`mktemp`"
     echo -e "${actionstring} ..."
-    if [ "$2" = sudo ]; then
-        get_sudo
-    fi
     eval $actionstring >$diemsg 2>&1 &
         progressindicator $tmpjob
     grep -qs "Exit[[:space:]][[:digit:]]" "$tmpjob" && {

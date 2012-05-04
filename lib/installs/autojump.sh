@@ -1,7 +1,7 @@
 #!/bin/bash
 # Install autojump
 
-execute_command "sudo echo \"fish\"" sudo
+execute_command "echo \"fish\"" sudo
 
 read -p "Currently Executing as User: \"${USER}\". Is this correct (y/n)? " CONFIRM
 
