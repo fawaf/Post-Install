@@ -2,7 +2,7 @@
 # Install autojump
 
 echo "Installing Dependencies..."
-sudo apt-get -qqy install python2.7 &>> $logfile
+sudo apt-get -y install python2.7 &>> $logfile
 
 wget https://github.com/joelthelion/autojump/downloads -O ~/Downloads/autojump-downloads.html &>> $logfile
 VALLSTABLE=`egrep -o -m 1 "\/downloads\/joelthelion\/autojump\/autojump_v[0-9]*\.tar\.gz" ~/Downloads/autojump-downloads.html` &>> $logfile
